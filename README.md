@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on [Housing-Regression-Model](https://github.com/CyberOwaisShah/CyberOwaisShah-regression-housing-data)
 
-- 🌱 I’m currently learning **R, Stata, SPSS, Tableau, SQL, Python**
+- 🌱 I’m currently learning **advance R, Stata, SPSS, Tableau, SQL, Python**
 
 - 👯 I’m looking to collaborate on [Focused on R programming for economics](https://github.com/CyberOwaisShah/r-visuals-by-owais)
 

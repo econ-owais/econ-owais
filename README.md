@@ -1,4 +1,4 @@
- ![logo](https://github.com/CyberOwaisShah/CyberOwaisShah/blob/main/OWAIS.png)
+ ![logo](https://github.com/CyberOwaisShah/CyberOwaisShah/blob/main/Red%20%26%20Black%20Geometric%20Gamer%20Youtube%20Banner.png)
 <h1 align="center">Hi 👋, I'm OWAIS ALI SHAH</h1>
 <h3 align="center">Economics Graduate | Data Analyst | Specializing in Economic Research & Data Visualization</h3>
 <image align="right" alt="coding" width="400" src="https://t4.ftcdn.net/jpg/08/70/32/31/360_F_870323199_ajFBiDNHIlYPyy5Hdl0BOXuLFqLsirD6.jpg">

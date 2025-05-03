@@ -3,7 +3,7 @@
 <h3 align="center">Economics Graduate | Data Analyst | Specializing in Economic Research & Data Visualization</h3>
 <image align="right" alt="coding" width="400" src="https://t4.ftcdn.net/jpg/08/70/32/31/360_F_870323199_ajFBiDNHIlYPyy5Hdl0BOXuLFqLsirD6.jpg">
 
-- 🔭 I’m currently working on [Housing-Regression-Model](https://github.com/CyberOwaisShah/CyberOwaisShah-regression-housing-data)
+- 🔭 I’m currently working on [Analysis-of-Student-Teacher-Ratios-in-Khyber-Pakhtunkhwa-Universities-l]( https://github.com/CyberOwaisShah/-Analysis-of-Student-Teacher-Ratios-in-Khyber-Pakhtunkhwa-Universities-)
 
 - 🌱 I’m currently learning **advance R, Stata, SPSS, Tableau, SQL, Python**
 
@@ -27,3 +27,11 @@
 <p align="left"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=cyberowaisshah&show_icons=true&locale=en&layout=compact" alt="cyberowaisshah" /></p>
+# SCREENSHOTS OF MY WORK:
+
+![Actual vs Fitted Plot](https://github.com/CyberOwaisShah/CyberOwaisShah/raw/main/screenshots/Rplot%20actual%20vs%20fitted.png)
+![Screenshot 1](https://github.com/CyberOwaisShah/CyberOwaisShah/raw/main/screenshots/Screenshot%202025-05-03%20103937.png)
+
+![Screenshot 2](https://github.com/CyberOwaisShah/CyberOwaisShah/raw/main/screenshots/Screenshot%202025-05-03%20110247.png)
+
+![Screenshot 3](https://github.com/CyberOwaisShah/CyberOwaisShah/raw/main/screenshots/Screenshot%202025-05-03%20110336.png)

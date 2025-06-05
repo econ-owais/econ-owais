@@ -12,7 +12,7 @@
 
 - 🤝 I’m looking for help with [Building structured economic models and workflows](https://github.com/CyberOwaisShah)
 
-- 👨‍💻 All of my projects are available at [https://github.com/CyberOwaisShah](https://github.com/CyberOwaisShah)
+- 👨‍💻 All of my projects are available at [https://github.com/econ-owais](https://github.com/econ-owais)
 
 - 💬 Ask me about **"Ask me about economic analysis, data visualization, R and Python programming, econometrics, policy research, and open-source projects"**
 

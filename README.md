@@ -18,6 +18,7 @@
 
 - 📫 How to reach me **owais.ali.shah.econ@gmail.com**
 
+***NOTE: to see the interactive, just simply click on the repository and then click on the green CODE button. You will see the download option in ZIP; simply download the repository and see my work.
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/owaisali-econ" target="_blank">

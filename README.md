@@ -1,4 +1,4 @@
- ![logo](https://github.com/CyberOwaisShah/CyberOwaisShah/blob/main/banner.png)
+ ![logo](https://github.com/econ-owais/econ-owais/blob/main/%E2%80%9CFrom%20Flood%20Recovery%20to%20Policy%20Reform%E2%80%94Data%20with%20Purpose%E2%80%9D.png)
 <h1 align="center">Turning Data into Decisions — I'm Owais Ali Shah</h1>
 <h3 align="center">Economics Graduate | Data Analyst | Expert in Economic Research & Data Visualization</h3>
 

@@ -17,7 +17,7 @@
 - 💬 Ask me about **"Ask me about economic analysis, data visualization, R and Python programming, econometrics, policy research, and open-source projects"**
 
 - 📫 How to reach me **owais.ali.shah.econ@gmail.com**
- # 📦 TO VIEW MY PROJECT (METHODOLOGY + HTML VISUALS):
+ # 📦 TO VIEW MY PROJECTS<>(METHODOLOGY + HTML VISUALS):
 
 - OPEN THE REPOSITORY ON GITHUB.  
 - SELECT THE PROJECT TITLE YOU WANT TO EXPLORE.  

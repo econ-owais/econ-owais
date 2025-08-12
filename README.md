@@ -17,8 +17,14 @@
 - 💬 Ask me about **"Ask me about economic analysis, data visualization, R and Python programming, econometrics, policy research, and open-source projects"**
 
 - 📫 How to reach me **owais.ali.shah.econ@gmail.com**
+ # 📦 TO VIEW MY PROJECT (METHODOLOGY + HTML VISUALS):
 
-***NOTE: to see the interactive, just simply click on the repository and then click on the green CODE button. You will see the download option in ZIP; simply download the repository and see my work.
+- OPEN THE REPOSITORY ON GITHUB.  
+- SELECT THE PROJECT TITLE YOU WANT TO EXPLORE.  
+- CLICK THE GREEN CODE BUTTON NEAR THE TOP RIGHT.  
+- CHOOSE DOWNLOAD ZIP FROM THE DROPDOWN MENU.  
+- EXTRACT THE DOWNLOADED FOLDER TO ACCESS ALL PROJECT FILES.
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/owaisali-econ" target="_blank">
@@ -28,7 +34,11 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=cyberowaisshah&show_icons=true&locale=en&layout=compact" alt="cyberowaisshah" /></p>
+ <p>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=econ-owais&show_icons=true&locale=en&layout=compact" alt="econ-owais" />
+</p>
+
+
 # SCREENSHOTS OF MY WORK:
 
 ![Actual vs Fitted Plot](https://github.com/CyberOwaisShah/CyberOwaisShah/raw/main/screenshots/Rplot%20actual%20vs%20fitted.png)

@@ -52,7 +52,7 @@ Advanced R, Stata, SPSS, Tableau, SQL, and Python
 ### 🇵🇰 Pakistan Development Indicators Dashboard  
 An interactive dashboard visualizing socio-economic trends in Pakistan.  
 <p align="center">
-  <a href="https://econ-owais.github.io/pakistan-indicators-dashboard/">
+  <a href="https://econ-owais.github.io/pakistan-indicators-dashboard./">
     <img src="https://img.shields.io/badge/🔎%20Live%20Demo%20Here-brightgreen?style=for-the-badge" alt="Live Demo" />
   </a>
   <a href="https://github.com/econ-owais/pakistan-indicators-dashboard">
@@ -60,9 +60,13 @@ An interactive dashboard visualizing socio-economic trends in Pakistan.
   </a>
 </p>
 
-### 📊 R Visuals by Owais  
-A collection of visualizations created using R programming for economic data.  
-[![View Projects](https://img.shields.io/badge/View%20Projects-blue?style=for-the-badge)](https://github.com/CyberOwaisShah/r-visuals-by-owais)
+### 💧 Irrigation Dashboard for Pakistan  
+A Shiny app visualizing irrigation trends and water resource data for planners.  
+<p align="center">
+  <a href="https://econ-owaisali.shinyapps.io/irrigation_project/">
+    <img src="https://img.shields.io/badge/🚜%20Launch%20Irrigation%20App-blue?style=for-the-badge" alt="Irrigation App" />
+  </a>
+</p>
 
 ---
 
@@ -124,7 +128,8 @@ A collection of visualizations created using R programming for economic data.
 ## 🔗 Explore More
 
 👨‍💻 [Main GitHub Profile](https://github.com/econ-owais)  
-📊 [Pakistan Indicators Dashboard](https://econ-owais.github.io/pakistan-indicators-dashboard/)  
+📊 [Pakistan Indicators Dashboard](https://econ-owais.github.io/pakistan-indicators-dashboard./)  
+🚜 [Irrigation Dashboard](https://econ-owaisali.shinyapps.io/irrigation_project/)  
 📁 [All Projects](https://github.com/CyberOwaisShah)
 
 ---

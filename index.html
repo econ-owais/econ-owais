@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan Development Indicators: A Comprehensive Overview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 320px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 384px;
+            }
+        }
+        .stat-card h3 {
+            font-size: 3rem;
+            line-height: 1;
+        }
+        .stat-card p {
+            font-size: 1.125rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#005F73] mb-2">Pakistan Development Indicators: A Comprehensive Overview</h1>
+            <p class="text-lg text-gray-600">An interactive visual summary of key socio-economic trends and data</p>
+            <p class="mt-2 font-bold text-lg text-[#0A9396]">A Project by Owais Ali Shah</p>
+            <p class="text-sm text-gray-500 mt-4">
+                To see the full project, please click on the link below.
+                <br>
+                <a href="https://econ-owaisali.shinyapps.io/irrigation_project/" class="text-blue-500 hover:text-blue-700 underline">
+                    https://econ-owaisali.shinyapps.io/irrigation_project/
+                </a>
+            </p>
+            <p class="text-sm text-gray-500 mt-2">
+                For inquiries, you can contact me via email:
+                <a href="mailto:owais.ali.shah.econ@gmail.com" class="text-blue-500 hover:text-blue-700 underline">
+                    owais.ali.shah.econ@gmail.com
+                </a>
+            </p>
+        </header>
+
+        <section id="kpis" class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-12">
+            <div class="stat-card bg-white rounded-lg shadow-md p-6 text-center">
+                <p class="text-[#0A9396] font-semibold">Total Indicators Tracked</p>
+                <h3 class="font-bold text-[#005F73]">6</h3>
+            </div>
+            <div class="stat-card bg-white rounded-lg shadow-md p-6 text-center">
+                <p class="text-[#0A9396] font-semibold">Time Period</p>
+                <h3 class="font-bold text-[#005F73]">20</h3>
+                <p class="text-gray-500 -mt-2">Years</p>
+            </div>
+            <div class="stat-card bg-white rounded-lg shadow-md p-6 text-center">
+                <p class="text-[#0A9396] font-semibold">Total Data Points</p>
+                <h3 class="font-bold text-[#005F73]">120</h3>
+            </div>
+            <div class="stat-card bg-white rounded-lg shadow-md p-6 text-center">
+                <p class="text-[#0A9396] font-semibold">Avg. Literacy Rate</p>
+                <h3 class="font-bold text-[#005F73]">~60%</h3>
+            </div>
+        </section>
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div class="md:col-span-2 bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold text-[#005F73] mb-4 text-center">📚 Literacy Rate: A Slow but Steady Climb</h2>
+                <p class="text-center text-gray-600 mb-6 max-w-3xl mx-auto">The literacy rate is a foundational pillar of national development. Over the past two decades, Pakistan has seen a gradual increase, indicating consistent efforts in education, though the pace of improvement highlights ongoing challenges.</p>
+                <div class="chart-container">
+                    <canvas id="literacyChart"></canvas>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold text-[#005F73] mb-4 text-center">💧 Health & Sanitation Nexus</h2>
+                <p class="text-center text-gray-600 mb-6">This chart explores the critical relationship between access to clean water and the infant mortality rate. As access to sanitation improves, there is a clear, corresponding decrease in infant mortality, showcasing the impact of public health infrastructure.</p>
+                <div class="chart-container">
+                    <canvas id="healthScatterChart"></canvas>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold text-[#005F73] mb-4 text-center">🏫 Primary School Enrollment</h2>
+                <p class="text-center text-gray-600 mb-6">Ensuring children are in school is vital for future prosperity. This chart shows the percentage of children enrolled in primary education as of 2019, highlighting both the progress made and the remaining gap to achieve universal enrollment.</p>
+                <div class="chart-container flex items-center justify-center">
+                    <canvas id="enrollmentDonutChart"></canvas>
+                </div>
+            </div>
+
+            <div class="md:col-span-2 bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold text-[#005F73] mb-4 text-center">📈 Economic Growth vs. Unemployment</h2>
+                <p class="text-center text-gray-600 mb-6 max-w-3xl mx-auto">This visualization contrasts the growth in GDP per capita with the unemployment rate. While the economy has expanded, the unemployment rate has remained relatively stable, suggesting that economic growth has not fully translated into proportional job creation.</p>
+                <div class="chart-container">
+                    <canvas id="ecoComboChart"></canvas>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-center mt-12 pt-8 border-t border-gray-300">
+            <p class="text-sm text-gray-500 mt-1">This visualization uses simulated data based on real-world trends for Pakistan.</p>
+        </footer>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const brilliantBluesPalette = {
+                primary: '#0A9396',
+                secondary: '#EE9B00',
+                accent: '#9B2226',
+                neutral: '#94D2BD',
+                text: '#005F73',
+                background: '#E9D8A6',
+                axis: '#555'
+            };
+
+            const tooltipTitleCallback = (tooltipItems) => {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) {
+                    return label.join(' ');
+                }
+                return label;
+            };
+
+            const commonChartOptions = {
+                maintainAspectRatio: false,
+                responsive: true,
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: brilliantBluesPalette.text
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        ticks: { color: brilliantBluesPalette.axis },
+                        grid: { display: false }
+                    },
+                    y: {
+                        ticks: { color: brilliantBluesPalette.axis },
+                        grid: { color: '#e0e0e0' }
+                    }
+                }
+            };
+
+            const years = Array.from({ length: 20 }, (_, i) => 2000 + i);
+            const generateRandomData = (min, max, length) => Array.from({ length }, () => Math.random() * (max - min) + min);
+
+            new Chart(document.getElementById('literacyChart'), {
+                type: 'line',
+                data: {
+                    labels: years,
+                    datasets: [{
+                        label: 'Literacy Rate (%)',
+                        data: generateRandomData(50, 70, 20),
+                        borderColor: brilliantBluesPalette.primary,
+                        backgroundColor: 'rgba(10, 147, 150, 0.2)',
+                        fill: true,
+                        tension: 0.3
+                    }]
+                },
+                options: commonChartOptions
+            });
+
+            new Chart(document.getElementById('healthScatterChart'), {
+                type: 'scatter',
+                data: {
+                    labels: years,
+                    datasets: [{
+                        label: 'Health Indicators',
+                        data: years.map(year => ({
+                            x: 70 + (year - 2000) * 1.25,
+                            y: 70 - (year - 2000) * 1.5, 
+                        })),
+                        backgroundColor: years.map(year => `rgba(10, 147, 150, ${0.3 + (year - 2000) / 25})`),
+                        borderColor: brilliantBluesPalette.primary,
+                        pointRadius: 6,
+                        pointHoverRadius: 8
+                    }]
+                },
+                options: {
+                    ...commonChartOptions,
+                    scales: {
+                        x: {
+                            ...commonChartOptions.scales.x,
+                            title: { display: true, text: 'Access to Clean Water (%)', color: brilliantBluesPalette.text }
+                        },
+                        y: {
+                            ...commonChartOptions.scales.y,
+                            title: { display: true, text: 'Infant Mortality Rate (per 1,000 births)', color: brilliantBluesPalette.text }
+                        }
+                    }
+                }
+            });
+
+            new Chart(document.getElementById('enrollmentDonutChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['Enrolled', 'Not Enrolled'],
+                    datasets: [{
+                        label: 'Primary School Enrollment 2019',
+                        data: [92, 8],
+                        backgroundColor: [brilliantBluesPalette.primary, '#e9ecef'],
+                        borderColor: '#ffffff',
+                        borderWidth: 4,
+                        hoverOffset: 8
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'bottom', labels: { color: brilliantBluesPalette.text, padding: 20 } },
+                        tooltip: { callbacks: { title: (items) => items[0].label } }
+                    }
+                }
+            });
+
+            new Chart(document.getElementById('ecoComboChart'), {
+                type: 'bar',
+                data: {
+                    labels: years,
+                    datasets: [
+                        {
+                            type: 'bar',
+                            label: 'GDP per Capita (USD)',
+                            data: generateRandomData(1000, 2000, 20),
+                            backgroundColor: brilliantBluesPalette.neutral,
+                            yAxisID: 'yGdp',
+                        },
+                        {
+                            type: 'line',
+                            label: 'Unemployment Rate (%)',
+                            data: generateRandomData(4, 10, 20),
+                            borderColor: brilliantBluesPalette.accent,
+                            backgroundColor: 'transparent',
+                            tension: 0.3,
+                            yAxisID: 'yUnemployment',
+                        }
+                    ]
+                },
+                options: {
+                    ...commonChartOptions,
+                    scales: {
+                        x: { ...commonChartOptions.scales.x },
+                        yGdp: {
+                            type: 'linear',
+                            position: 'left',
+                            title: { display: true, text: 'GDP per Capita (USD)', color: brilliantBluesPalette.text },
+                            ticks: { color: brilliantBluesPalette.axis }
+                        },
+                        yUnemployment: {
+                            type: 'linear',
+                            position: 'right',
+                            title: { display: true, text: 'Unemployment Rate (%)', color: brilliantBluesPalette.text },
+                            ticks: { color: brilliantBluesPalette.axis },
+                            grid: { drawOnChartArea: false }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

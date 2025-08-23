@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/90445731/181676646-6c16ce6f-236b-4e0c-99f5-3c1a4030d321.gif" alt="Animated banner" width="600" />
+  <img src="https://user-images.githubusercontent.com/90445731/181676646-6c16ce6f-236b-4e0c-99f5-3c1a4030d321.gif" alt="Animated banner" width="600" />
 </p>
 
 <h1 align="center">Turning Data into Decisions — I'm Owais Ali Shah</h1>
@@ -34,7 +34,7 @@ An economics graduate specializing in data analysis and research. I'm passionate
 
 🔍 **Current Project**  
 **Pakistan Development Indicators Dashboard**  
-[🔗 View Project] https://econ-owaisali.shinyapps.io/irrigation_project/
+[🔗 View Project](https://econ-owaisali.shinyapps.io/irrigation_project/)
 
 📚 **Learning & Skill Expansion**  
 Advanced R, Stata, SPSS, Tableau, SQL, and Python
@@ -55,7 +55,7 @@ An interactive dashboard visualizing socio-economic trends in Pakistan.
   <a href="https://econ-owais.github.io/pakistan-indicators-dashboard./">
     <img src="https://img.shields.io/badge/🔎%20Live%20Demo%20Here-brightgreen?style=for-the-badge" alt="Live Demo" />
   </a>
-  <a href="https://github.com/econ-owais/pakistan-indicators-dashboard">
+  <a href="https://github.com/econ-owais/pakistan-indicators-dashboard./blob/main/pakistan-indicators-dashboard/app.R" title="View the full Shiny app code powering the dashboard">
     <img src="https://img.shields.io/badge/💻%20View%20Code-1A1A1A?style=for-the-badge" alt="Code" />
   </a>
 </p>

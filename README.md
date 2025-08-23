@@ -40,10 +40,4 @@
 
 
 # SCREENSHOTS OF MY WORK:
-
-![Actual vs Fitted Plot](https://github.com/CyberOwaisShah/CyberOwaisShah/raw/main/screenshots/Rplot%20actual%20vs%20fitted.png)
-![Screenshot 1](https://github.com/CyberOwaisShah/CyberOwaisShah/raw/main/screenshots/Screenshot%202025-05-03%20103937.png)
-
-![Screenshot 2](https://github.com/CyberOwaisShah/CyberOwaisShah/raw/main/screenshots/Screenshot%202025-05-03%20110247.png)
-
-![Screenshot 3](https://github.com/CyberOwaisShah/CyberOwaisShah/raw/main/screenshots/Screenshot%202025-05-03%20110336.png)
+ https://econ-owais.github.io/pakistan-indicators-dashboard./

@@ -55,7 +55,7 @@ An interactive dashboard visualizing socio-economic trends in Pakistan.
   <a href="https://econ-owais.github.io/pakistan-indicators-dashboard./">
     <img src="https://img.shields.io/badge/🔎%20Live%20Demo%20Here-brightgreen?style=for-the-badge" alt="Live Demo" />
   </a>
-  <a href="https://github.com/econ-owais/pakistan-indicators-dashboard./blob/main/pakistan-indicators-dashboard/app.R" title="View the full Shiny app code powering the dashboard">
+  <a href="https://github.com/econ-owais/pakistan-indicators-dashboard./blob/main/pakistan-indicators-dashboard/app.R">
     <img src="https://img.shields.io/badge/💻%20View%20Code-1A1A1A?style=for-the-badge" alt="Code" />
   </a>
 </p>
@@ -122,6 +122,16 @@ A Shiny app visualizing irrigation trends and water resource data for planners.
 - I troubleshoot Shiny apps like a detective — no bug escapes  
 - I believe fonts carry meaning, especially in certificates  
 - I love turning economic models into visual stories
+
+---
+
+## 🐾 Just for Fun — Cat Chase Animation
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif" alt="Cat chasing a ball" width="400" />
+</p>
+
+> 🐱 This playful animation adds a dash of personality to your profile — because even data analysts deserve a little fun.
 
 ---
 

@@ -33,8 +33,8 @@ An economics graduate specializing in data analysis and research. I'm passionate
 ## 💻 Current Focus & Collaboration
 
 🔍 **Current Project**  
-**Analysis of Student-Teacher Ratios in Khyber Pakhtunkhwa Universities**  
-[🔗 View Project](https://github.com/CyberOwaisShah/-Analysis-of-Student-Teacher-Ratios-in-Khyber-Pakhtunkhwa-Universities-)
+**Pakistan Development Indicators Dashboard**  
+[🔗 View Project] https://econ-owaisali.shinyapps.io/irrigation_project/
 
 📚 **Learning & Skill Expansion**  
 Advanced R, Stata, SPSS, Tableau, SQL, and Python

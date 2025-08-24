@@ -1,21 +1,22 @@
  <p align="center">
-  <img src="https://github.com/econ-owais/econ-owais/blob/main/%E2%80%9CFrom%20Flood%20Recovery%20to%20Policy%20Reform%E2%80%94Data%20with%20Purpose%E2%80%9D.png" alt="From Flood Recovery to Policy Reform — Data with Purpose" width="800" />
+<img src="https://github.com/econ-owais/econ-owais/blob/main/%E2%80%9CFrom%20Flood%20Recovery%20to%20Policy%20Reform%E2%80%94Data%20with%20Purpose%E2%80%9D.png" alt="From Flood Recovery to Policy Reform — Data with Purpose" width="800" />
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90445731/181676646-6c16ce6f-236b-4e0c-99f5-3c1a4030d321.gif" alt="Animated banner" width="600" />
+<img src="https://user-images.githubusercontent.com/90445731/181676646-6c16ce6f-236b-4e0c-99f5-3c1a4030d321.gif" alt="Animated banner" width="600" />
 </p>
 
 <h1 align="center">Turning Data into Decisions — I'm Owais Ali Shah</h1>
 <h3 align="center">Economics Graduate | Data Analyst | Expert in Economic Research & Data Visualization</h3>
 
-🎯 **Mission Statement**  
+---
+
+## 🎯 Mission Statement
 Empowering planners and educators through data-driven dashboards, bilingual outreach, and authentic design.
 
 ---
 
 ## 💼 About Me
-
 An economics graduate specializing in data analysis and research. I'm passionate about transforming complex economic data into clear, actionable insights through innovative data visualization and policy research. My work focuses on building structured economic models and dynamic dashboards using a variety of programming and analytical tools.
 
 ---
@@ -26,46 +27,64 @@ An economics graduate specializing in data analysis and research. I'm passionate
 - 🧾 Design bilingual outreach materials for economics programs  
 - 🛠️ Troubleshoot Shiny app deployment and dropdown optimization  
 - 🎨 Ensure font authenticity in certificates and posters  
-- 📈 Transform raw data into actionable insights for planners
+- 📈 Transform raw data into actionable insights for planners  
 
 ---
 
 ## 💻 Current Focus & Collaboration
 
-🔍 **Current Project**  
+### 🔍 Current Project
 **Pakistan Development Indicators Dashboard**  
-[🔗 View Project](https://econ-owaisali.shinyapps.io/irrigation_project/)
+🔗 View Project
 
-📚 **Learning & Skill Expansion**  
+### 📚 Learning & Skill Expansion
 Advanced R, Stata, SPSS, Tableau, SQL, and Python
 
-🤝 **Open to Collaborate On**  
+### 🤝 Open to Collaborate On
 - R programming for economics  
 - Structured economic modeling  
 - Bilingual outreach tools  
-- Dashboard design for public sector impact
+- Dashboard design for public sector impact  
 
 ---
 
-## 📌 Featured Projects
+## 📌 Featured Projects ✨
 
-### 🇵🇰 Pakistan Development Indicators Dashboard  
-An interactive dashboard visualizing socio-economic trends in Pakistan.  
+### 🇵🇰 **Project 1: Pakistan Development Indicators Dashboard**
+An interactive dashboard visualizing socio-economic trends in Pakistan.
+
 <p align="center">
-  <a href="https://econ-owais.github.io/pakistan-indicators-dashboard./">
-    <img src="https://img.shields.io/badge/🔎%20Live%20Demo%20Here-brightgreen?style=for-the-badge" alt="Live Demo" />
-  </a>
-  <a href="https://github.com/econ-owais/pakistan-indicators-dashboard./blob/main/pakistan-indicators-dashboard/app.R">
-    <img src="https://img.shields.io/badge/💻%20View%20Code-1A1A1A?style=for-the-badge" alt="Code" />
-  </a>
+<a href="https://econ-owais.github.io/pakistan-indicators-dashboard./">
+<img src="https://img.shields.io/badge/🔎%20Live%20Demo%20Here-brightgreen?style=for-the-badge" alt="Live Demo" />
+</a>
+<a href="https://github.com/econ-owais/pakistan-indicators-dashboard./blob/main/pakistan-indicators-dashboard/app.R">
+<img src="https://img.shields.io/badge/💻%20View%20Code-1A1A1A?style=for-the-badge" alt="Code" />
+</a>
 </p>
 
-### 💧 Irrigation Dashboard for Pakistan  
-A Shiny app visualizing irrigation trends and water resource data for planners.  
+---
+
+### 💧 **Project 2: Irrigation Dashboard for Pakistan**
+A Shiny app visualizing irrigation trends and water resource data for planners.
+
 <p align="center">
-  <a href="https://econ-owaisali.shinyapps.io/irrigation_project/">
-    <img src="https://img.shields.io/badge/🚜%20Launch%20Irrigation%20App-blue?style=for-the-badge" alt="Irrigation App" />
-  </a>
+<a href="https://econ-owaisali.shinyapps.io/irrigation_project/">
+<img src="https://img.shields.io/badge/🚜%20Launch%20Irrigation%20App-blue?style=for-the-badge" alt="Irrigation App" />
+</a>
+</p>
+
+---
+
+### 🌊 **Project 3: KPK Flood Impact Infographic**
+A single-page HTML infographic providing a visual overview of flood-affected areas in Khyber Pakhtunkhwa.
+
+<p align="center">
+<a href="https://econ-owais.github.io/KPK-Flood-Impact-Infographic-/">
+<img src="https://img.shields.io/badge/📊%20View%20Infographic-orange?style=for-the-badge" alt="Infographic Demo" />
+</a>
+<a href="https://econ-owaisali.shinyapps.io/kpk_flood_dashboard/">
+<img src="https://img.shields.io/badge/🚀%20Full%20Dashboard%20App-red?style=for-the-badge" alt="Full Shiny App" />
+</a>
 </p>
 
 ---
@@ -97,14 +116,13 @@ A Shiny app visualizing irrigation trends and water resource data for planners.
 
 ## 🏅 GitHub Highlights
 
-- 🧠 **Top Languages**: ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)  
-- 📦 **Most Starred Repo**: [Pakistan Indicators Dashboard](https://github.com/econ-owais/pakistan-indicators-dashboard)  
-- 🔁 **Recent Commits**: Active in public sector analytics, dashboard design, and outreach tools  
-- 📈 **Contribution Streak**: ![GitHub Streak](https://img.shields.io/badge/Streak-🔥%20Consistent-blue?style=flat-square)
+- 🧠 Top Languages  
+- 📦 Most Starred Repo: Pakistan Indicators Dashboard  
+- 🔁 Recent Commits: Active in public sector analytics, dashboard design, and outreach tools  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=econ-owais&show_icons=true&theme=default" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=econ-owais&layout=compact&theme=default" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=econ-owais&show_icons=true&theme=default" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=econ-owais&layout=compact&theme=default" alt="Top Languages" />
 </p>
 
 ---
@@ -121,26 +139,28 @@ A Shiny app visualizing irrigation trends and water resource data for planners.
 - I’ve built dashboards that visualize irrigation, electricity, and SDG data  
 - I troubleshoot Shiny apps like a detective — no bug escapes  
 - I believe fonts carry meaning, especially in certificates  
-- I love turning economic models into visual stories
+- I love turning economic models into visual stories  
 
 ---
 
 ## 🐾 Just for Fun — Cat Chase Animation
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif" alt="Cat chasing a ball" width="400" />
+<img src="https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif" alt="Cat chasing a ball" width="400" />
 </p>
 
-> 🐱 This playful animation adds a dash of personality to your profile — because even data analysts deserve a little fun.
+🐱 This playful animation adds a dash of personality to your profile — because even data analysts deserve a little fun.
 
 ---
 
 ## 🔗 Explore More
 
-👨‍💻 [Main GitHub Profile](https://github.com/econ-owais)  
-📊 [Pakistan Indicators Dashboard](https://econ-owais.github.io/pakistan-indicators-dashboard./)  
-🚜 [Irrigation Dashboard](https://econ-owaisali.shinyapps.io/irrigation_project/)  
-📁 [All Projects](https://github.com/CyberOwaisShah)
+- 👨‍💻 Main GitHub Profile  
+- 📊 Pakistan Indicators Dashboard  
+- 🚜 Irrigation Dashboard  
+- 🌊 KPK Flood Impact Infographic Demo  
+- 🚀 KPK Flood Impact Full Dashboard  
+- 📁 All Projects  
 
 ---
 
@@ -157,4 +177,4 @@ A Shiny app visualizing irrigation trends and water resource data for planners.
 
 ---
 
-> 🧠 *“Thanks for visiting! Let’s connect and build tools that make data speak.”*
+🧠 “Thanks for visiting! Let’s connect and build tools that make data speak.”

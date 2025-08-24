@@ -48,9 +48,55 @@ Advanced R, Stata, SPSS, Tableau, SQL, and Python
 
 ---
 
- ## 📌 Featured Projects ✨
- ### **Project 1: Pakistan Development Indicators Dashboard**  
-An interactive dashboard visualizing socio-economic trends in Pakistan.
+ ## 📌 FEATURED PROJECTS  
+<p align="center"><b>Real-world dashboards. Public impact. Designed by Owais Ali Shah.</b></p>
+
+---
+
+### 🎯 PROJECT 1 — PAKISTAN SDGs INDICATORS DASHBOARD  
+<p align="center"><i>Tracking national progress on Sustainable Development Goals with clarity and precision.</i></p>
+
+<p align="center">
+  <a href="https://econ-owais.github.io/Pakistan_SDGS-indicator-s-Dashboard/">
+    <img src="https://img.shields.io/badge/🌍%20View%20SDGs%20Demo-teal?style=for-the-badge" alt="SDGs Demo" />
+  </a>
+  <a href="https://econ-owaisali.shinyapps.io/Pakistan-SDGs-Indicators-Dashboard/">
+    <img src="https://img.shields.io/badge/🚀%20Full%20SDGs%20Dashboard-red?style=for-the-badge" alt="SDGs Dashboard" />
+  </a>
+</p>
+
+---
+
+### 🌊 PROJECT 2 — KPK FLOOD IMPACT INFOGRAPHIC  
+<p align="center"><i>Visualizing flood-affected zones in Khyber Pakhtunkhwa for planners and educators.</i></p>
+
+<p align="center">
+  <a href="https://econ-owais.github.io/KPK-Flood-Impact-Infographic-/">
+    <img src="https://img.shields.io/badge/📊%20View%20Infographic-orange?style=for-the-badge" alt="Infographic Demo" />
+  </a>
+  <a href="https://econ-owaisali.shinyapps.io/kpk_flood_dashboard/">
+    <img src="https://img.shields.io/badge/🚀%20Full%20Dashboard%20App-red?style=for-the-badge" alt="Full Shiny App" />
+  </a>
+</p>
+
+---
+
+### 🥗 PROJECT 3 — HEALTHY DIET AFFORDABILITY DASHBOARD  
+<p align="center"><i>Analyzing the affordability of nutritious diets across Pakistan using FAO data.</i></p>
+
+<p align="center">
+  <a href="https://econ-owais.github.io/Healthy-Diet-Affordability-Dashboard/">
+    <img src="https://img.shields.io/badge/🥦%20View%20Healthy%20Diet%20Demo-green?style=for-the-badge" alt="Healthy Diet Demo" />
+  </a>
+  <a href="https://econ-owaisali.shinyapps.io/Healthy-Diet-Dashboard/">
+    <img src="https://img.shields.io/badge/🚀%20Full%20Healthy%20Diet%20Dashboard-red?style=for-the-badge" alt="Healthy Diet Dashboard" />
+  </a>
+</p>
+
+---
+
+### 🇵🇰 PROJECT 4 — PAKISTAN DEVELOPMENT INDICATORS DASHBOARD  
+<p align="center"><i>Socio-economic trends brought to life with interactive filters and branded design.</i></p>
 
 <p align="center">
   <a href="https://econ-owais.github.io/pakistan-indicators-dashboard./">
@@ -63,74 +109,30 @@ An interactive dashboard visualizing socio-economic trends in Pakistan.
 
 <p align="center"><i>Crafted and published by Owais Ali Shah — blending data with design for public insight.</i></p>
 
+---
 
- 
-### 💧 **Project 2: Irrigation Dashboard for Pakistan**
-A Shiny app visualizing irrigation trends and water resource data for planners.
+### 📉 PROJECT 5 — PAKISTAN MACRO INDICATORS DASHBOARD  
+<p align="center"><i>Inflation, GDP, trade — macroeconomic data visualized for decision-makers.</i></p>
 
 <p align="center">
-<a href="https://econ-owaisali.shinyapps.io/irrigation_project/">
-<img src="https://img.shields.io/badge/🚜%20Launch%20Irrigation%20App-blue?style=for-the-badge" alt="Irrigation App" />
-</a>
+  <a href="https://econ-owais.github.io/Pakistan-Macro-Indicators-Dashboard/">
+    <img src="https://img.shields.io/badge/📊%20View%20Macro%20Demo-purple?style=for-the-badge" alt="Macro Indicators Demo" />
+  </a>
+  <a href="https://econ-owaisali.shinyapps.io/Pakistan-macro-indicator-Dashboard/">
+    <img src="https://img.shields.io/badge/🚀%20Full%20Macro%20Dashboard-red?style=for-the-badge" alt="Macro Dashboard" />
+  </a>
 </p>
 
 ---
 
-### 🌊 **Project 3: KPK Flood Impact Infographic**
-A single-page HTML infographic providing a visual overview of flood-affected areas in Khyber Pakhtunkhwa.
+### 🚜 PROJECT 6 — IRRIGATION DASHBOARD FOR PAKISTAN  
+<p align="center"><i>Water resource analytics for agricultural planning and policy reform.</i></p>
 
 <p align="center">
-<a href="https://econ-owais.github.io/KPK-Flood-Impact-Infographic-/">
-<img src="https://img.shields.io/badge/📊%20View%20Infographic-orange?style=for-the-badge" alt="Infographic Demo" />
-</a>
-<a href="https://econ-owaisali.shinyapps.io/kpk_flood_dashboard/">
-<img src="https://img.shields.io/badge/🚀%20Full%20Dashboard%20App-red?style=for-the-badge" alt="Full Shiny App" />
-</a>
+  <a href="https://econ-owaisali.shinyapps.io/irrigation_project/">
+    <img src="https://img.shields.io/badge/🚜%20Launch%20Irrigation%20App-blue?style=for-the-badge" alt="Irrigation App" />
+  </a>
 </p>
-
----
-
-### 🥗 **Project 4: Healthy Diet Affordability Dashboard**
-A dashboard exploring the affordability of healthy diets across Pakistan using FAO data.
-
-<p align="center">
-<a href="https://econ-owais.github.io/Healthy-Diet-Affordability-Dashboard/">
-<img src="https://img.shields.io/badge/🥦%20View%20Healthy%20Diet%20Demo-green?style=for-the-badge" alt="Healthy Diet Demo" />
-</a>
-<a href="https://econ-owaisali.shinyapps.io/Healthy-Diet-Dashboard/">
-<img src="https://img.shields.io/badge/🚀%20Full%20Healthy%20Diet%20Dashboard-red?style=for-the-badge" alt="Healthy Diet Dashboard" />
-</a>
-</p>
-
----
-
-### 📉 **Project 5: Pakistan Macro Indicators Dashboard**
-A dashboard visualizing macroeconomic indicators such as inflation, GDP, and trade.
-
-<p align="center">
-<a href="https://econ-owais.github.io/Pakistan-Macro-Indicators-Dashboard/">
-<img src="https://img.shields.io/badge/📊%20View%20Macro%20Demo-purple?style=for-the-badge" alt="Macro Indicators Demo" />
-</a>
-<a href="https://econ-owaisali.shinyapps.io/Pakistan-macro-indicator-Dashboard/">
-<img src="https://img.shields.io/badge/🚀%20Full%20Macro%20Dashboard-red?style=for-the-badge" alt="Macro Dashboard" />
-</a>
-</p>
-
----
-
-### 🎯 **Project 6: Pakistan SDGs Indicators Dashboard**
-An interactive dashboard tracking Pakistan’s progress on Sustainable Development Goals.
-
-<p align="center">
-<a href="https://econ-owais.github.io/Pakistan_SDGS-indicator-s-Dashboard/">
-<img src="https://img.shields.io/badge/🌍%20View%20SDGs%20Demo-teal?style=for-the-badge" alt="SDGs Demo" />
-</a>
-<a href="https://econ-owaisali.shinyapps.io/Pakistan-SDGs-Indicators-Dashboard/">
-<img src="https://img.shields.io/badge/🚀%20Full%20SDGs%20Dashboard-red?style=for-the-badge" alt="SDGs Dashboard" />
-</a>
-</p>
-
----
 
 
 ## 🧰 Skills & Tools

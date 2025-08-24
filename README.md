@@ -49,21 +49,22 @@ Advanced R, Stata, SPSS, Tableau, SQL, and Python
 ---
 
  ## 📌 Featured Projects ✨
-
-### 🇵🇰 **Project 1: Pakistan Development Indicators Dashboard**
+ ### **Project 1: Pakistan Development Indicators Dashboard**  
 An interactive dashboard visualizing socio-economic trends in Pakistan.
 
 <p align="center">
-<a href="https://econ-owais.github.io/pakistan-indicators-dashboard./">
-<img src="https://img.shields.io/badge/🔎%20Live%20Demo%20Here-brightgreen?style=for-the-badge" alt="Live Demo" />
-</a>
-<a href="https://github.com/econ-owais/pakistan-indicators-dashboard./blob/main/pakistan-indicators-dashboard/app.R">
-<img src="https://img.shields.io/badge/💻%20View%20Code-1A1A1A?style=for-the-badge" alt="Code" />
-</a>
+  <a href="https://econ-owais.github.io/pakistan-indicators-dashboard./">
+    <img src="https://img.shields.io/badge/🔎%20Live%20Demo%20Here-brightgreen?style=for-the-badge" alt="Live Demo" />
+  </a>
+  <a href="https://econ-owaisali.shinyapps.io/irrigation_project/">
+    <img src="https://img.shields.io/badge/💻%20View%20Full%20Dashboard-1A1A1A?style=for-the-badge" alt="View Full Dashboard" />
+  </a>
 </p>
 
----
+<p align="center"><i>Crafted and published by Owais Ali Shah — blending data with design for public insight.</i></p>
 
+
+ 
 ### 💧 **Project 2: Irrigation Dashboard for Pakistan**
 A Shiny app visualizing irrigation trends and water resource data for planners.
 

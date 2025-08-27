@@ -116,8 +116,7 @@ An economics graduate specializing in data analysis and research. I'm passionate
     <img src="https://img.shields.io/badge/🚜%20Launch%20Irrigation%20App-blue?style=for-the-badge" alt="Irrigation App" />
   </a>
 </p>
----
-
+ 
 ## 🧰 Skills & Tools
 
 <p align="center">

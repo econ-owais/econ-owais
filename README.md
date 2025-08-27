@@ -27,24 +27,7 @@ An economics graduate specializing in data analysis and research. I'm passionate
 - 🧾 Design bilingual outreach materials for economics programs  
 - 🛠️ Troubleshoot Shiny app deployment and dropdown optimization  
 - 🎨 Ensure font authenticity in certificates and posters  
-- 📈 Transform raw data into actionable insights for planners  
-
----
-
-## 💻 Current Focus & Collaboration
-
-### 🔍 Current Project
-**Pakistan Development Indicators Dashboard**  
-🔗 View Project
-
-### 📚 Learning & Skill Expansion
-Advanced R, Stata, SPSS, Tableau, SQL, and Python
-
-### 🤝 Open to Collaborate On
-- R programming for economics  
-- Structured economic modeling  
-- Bilingual outreach tools  
-- Dashboard design for public sector impact  
+- 📈 Transform raw data into actionable insights for planners 
 
 ---
 
@@ -133,7 +116,7 @@ Advanced R, Stata, SPSS, Tableau, SQL, and Python
     <img src="https://img.shields.io/badge/🚜%20Launch%20Irrigation%20App-blue?style=for-the-badge" alt="Irrigation App" />
   </a>
 </p>
-
+---
 
 ## 🧰 Skills & Tools
 

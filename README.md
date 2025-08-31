@@ -141,25 +141,6 @@ An economics graduate specializing in data analysis and research. I'm passionate
 - 🔄 Iterative: I refine until every detail aligns with the audience’s needs  
 
 ---
-
-## 🏅 GitHub Highlights
-
-- 🧠 Top Languages  
-- 📦 Most Starred Repo: Pakistan Indicators Dashboard  
-- 🔁 Recent Commits: Active in public sector analytics, dashboard design, and outreach tools  
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=econ-owais&show_icons=true&theme=default" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=econ-owais&layout=compact&theme=default" alt="Top Languages" />
-</p>
-
----
-
-## 🌐 Bilingual Outreach
-
-📣 I design bilingual (English/Urdu) outreach materials to make economics education more accessible.  
-📝 Posters, captions, and dashboards are crafted for clarity, authenticity, and local relevance.
-
 ---
 
 ## 🎉 Fun Facts
@@ -192,6 +173,23 @@ An economics graduate specializing in data analysis and research. I'm passionate
 
 ---
 
+## 🏅 GitHub Highlights
+
+- 🧠 Top Languages  
+- 📦 Most Starred Repo: Pakistan Indicators Dashboard  
+- 🔁 Recent Commits: Active in public sector analytics, dashboard design, and outreach tools  
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=econ-owais&show_icons=true&theme=default" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=econ-owais&layout=compact&theme=default" alt="Top Languages" />
+</p>
+
+---
+
+## 🌐 Bilingual Outreach
+
+📣 I design bilingual (English/Urdu) outreach materials to make economics education more accessible.  
+📝 Posters, captions, and dashboards are crafted for clarity, authenticity, and local relevance.
 ## 💬 Connect with Me
 
 <p align="center">

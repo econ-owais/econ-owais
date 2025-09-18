@@ -12,8 +12,7 @@
 ---
 
 ## 💼 About Me
-An economics graduate specializing in data analysis and research. I'm passionate about transforming complex economic data into clear, actionable insights through innovative data visualization and policy research. My work focuses on building structured economic models and dynamic dashboards using a variety of programming and analytical tools.
-
+I’m an economics graduate who loves turning numbers into stories people can actually use. I take complex economic data and break it down into clear, practical insights through smart visualizations and policy-focused research. Whether it’s building economic models or designing interactive dashboards, I use a mix of programming and analytical tools to make data not just understandable but impactful.
 ---
 
 ## 🧠 What I Do

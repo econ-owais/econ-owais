@@ -11,11 +11,6 @@
 
 ---
 
-## 🎯 Mission Statement
-Empowering planners and educators through data-driven dashboards, bilingual outreach, and authentic design.
-
----
-
 ## 💼 About Me
 An economics graduate specializing in data analysis and research. I'm passionate about transforming complex economic data into clear, actionable insights through innovative data visualization and policy research. My work focuses on building structured economic models and dynamic dashboards using a variety of programming and analytical tools.
 

@@ -1,6 +1,6 @@
-<!-- Animated Greeting with Typing Effect -->
+<!-- Simple Animated Greeting -->
 <h1>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=75&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&height=100&lines=Hey+There!+%F0%9F%91%8B;I'm+Owais+Ali+Shah;Data+Analyst+%7C+Economist;Turning+Data+into+Decisions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=75&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&height=100&lines=Hi!+I'm+Owais+Ali+Shah" alt="Typing SVG" />
 </h1>
 
 <!-- Subtitle with animated gradient -->

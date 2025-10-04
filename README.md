@@ -1,7 +1,18 @@
-<!-- Simple Animated Greeting -->
-<h1>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=75&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&height=100&lines=Hi!+I'm+Owais+Ali+Shah" alt="Typing SVG" />
-</h1>
+ <!-- Ultra Premium Animated Greeting -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=50&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&height=100&lines=Hi!+I'm+Owais+Ali+Shah+%F0%9F%92%8E;Data+Analyst+%7C+Economist+%E2%9C%A8" alt="Typing SVG" />
+  
+  <!-- Premium Decorative Elements -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%">
+</div>
+  
+  <!-- Premium Decorative Elements -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%">
+</div>
+  
+  <!-- Decorative Line -->
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
 
 <!-- Subtitle with animated gradient -->
 <h3>

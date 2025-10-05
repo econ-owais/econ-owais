@@ -1,6 +1,6 @@
  <!-- Ultra Premium Animated Greeting -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=50&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&height=100&lines=Hi!+I'm+Owais+Ali+Shah+%F0%9F%92%8E;Data+Analyst+%7C+Economist+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=50&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&height=100&lines=Hi!+I'm+Owais+Ali+Shah+%F0%9F%92%8E;Data+Analyst+%E2%9C%A8" alt="Typing SVG" />
   
   <!-- Premium Decorative Elements -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%">
@@ -48,10 +48,7 @@
 <img align="right" src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="300">
 
 ```yaml
-name: Owais Ali Shah
-role: Data Analyst & Economist
-location: Pakistan
-expertise:
+ expertise:
   - Economic Research & Policy Analysis
   - Interactive Dashboard Development
   - Data Visualization & Storytelling
@@ -70,19 +67,13 @@ approach:
   - Accessible to all audiences
 ```
 
-<br clear="right"/>
-
-I'm an economics graduate passionate about **turning numbers into narratives**. I specialize in building **interactive dashboards**, conducting **rigorous economic research**, and creating **bilingual outreach materials** that make data accessible and impactful for policymakers, planners, and the public.
-
----
-
-## 🎯 What I Do
+##  What I Do
 
 <table>
 <tr>
 <td width="50%">
 
-### 📊 Data Analytics & Visualization
+###  Data Analytics & Visualization
 - Build interactive R Shiny dashboards
 - Design infographics and visual stories
 - Create Tableau & Power BI reports
@@ -91,7 +82,7 @@ I'm an economics graduate passionate about **turning numbers into narratives**. 
 </td>
 <td width="50%">
 
-### 📈 Economic Research
+### Economic Research
 - Econometric modeling & forecasting
 - Policy impact analysis
 - SDG progress tracking
@@ -102,7 +93,7 @@ I'm an economics graduate passionate about **turning numbers into narratives**. 
 <tr>
 <td width="50%">
 
-### 🛠️ Technical Development
+###  Technical Development
 - Web app deployment & optimization
 - Database management (SQL)
 - Frontend design (HTML/CSS/JS)
@@ -111,7 +102,7 @@ I'm an economics graduate passionate about **turning numbers into narratives**. 
 </td>
 <td width="50%">
 
-### 🌍 Public Sector Solutions
+###  Public Sector Solutions
 - Bilingual outreach materials
 - Government analytics tools
 - Educational content creation
@@ -123,11 +114,11 @@ I'm an economics graduate passionate about **turning numbers into narratives**. 
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 <div align="center">
 
-### 🌟 Real-World Dashboards • Public Impact • Data-Driven Solutions
+###  Real-World Dashboards • Public Impact • Data-Driven Solutions
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 

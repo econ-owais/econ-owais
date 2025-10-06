@@ -1,652 +1,1276 @@
- <!-- Ultra Premium Animated Greeting -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=50&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&height=100&lines=Hi!+I'm+Owais+Ali+Shah+%F0%9F%92%8E;Data+Analyst+%E2%9C%A8" alt="Typing SVG" />
-  
-  <!-- Premium Decorative Elements -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%">
-</div>
-  
-  <!-- Premium Decorative Elements -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%">
-</div>
-  
-  <!-- Decorative Line -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
+<!-- ====================================================================== -->
+<!--                    🌟 ULTRA PREMIUM PROFILE HEADER 🌟                -->
+<!-- ====================================================================== -->
+<!-- Premium Animated Typing Effect -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Welcome+to+my+GitHub+Profile!+%F0%9F%91%8B;Transforming+Data+into+Actionable+Insights+%F0%9F%93%8A;Building+Dashboards+for+Public+Impact+%E2%9C%A8;Economics+Graduate+%7C+Data+Visualization+Specialist" alt="Typing SVG" />
+</a>
 
-<!-- Subtitle with animated gradient -->
-<h3>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Economics+Graduate+%7C+Data+Visualization+Expert;Building+Dashboards+for+Public+Impact;Transforming+Complex+Data+into+Actionable+Insights" alt="Subtitle" />
-</h3>
+<!-- Decorative Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- Animated Divider -->
+<!-- Premium GIF -->
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="600">
+
+<br><br>
+
+<!-- Ultra Premium Social Connect Section -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-<!-- Social Badges with Hover Effects -->
-<p>
+### 🌐 Connect With Me
+
+<p align="center">
   <a href="https://www.linkedin.com/in/owaisali-econ" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" height="35"/>
   </a>
+  &nbsp;&nbsp;
   <a href="mailto:owais.ali.shah.econ@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Gmail"/>
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Gmail" height="35"/>
   </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/econ-owais">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub" height="35"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=econ-owais&style=for-the-badge&color=58A6FF&labelColor=1A1B27" alt="Profile Views"/>
+  &nbsp;&nbsp;
+  <a href="https://orcid.org/0009-0003-0175-7611" target="_blank">
+    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white&labelColor=A6CE39" alt="ORCID" height="35"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://public.tableau.com/app/profile/owais.shah6191/vizzes" target="_blank">
+    <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white&labelColor=E97627" alt="Tableau Public" height="35"/>
+  </a>
 </p>
 
-<!-- Animated Working GIF -->
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
+<br>
+
+<!-- Profile Views Counter -->
+<img src="https://komarev.com/ghpvc/?username=econ-owais&style=for-the-badge&color=00D9FF&labelColor=1A1B27&label=PROFILE+VIEWS" alt="Profile Views" height="30"/>
+
+<br><br>
+
+<!-- Premium Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 </div>
 
----
+<br><br>
 
-## 💼 About Me
+<!-- ====================================================================== -->
+<!--                    🚀 FEATURED PROJECTS SHOWCASE 🚀                   -->
+<!-- ====================================================================== -->
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="300">
+<div align="center">
 
-```yaml
- expertise:
-  - Economic Research & Policy Analysis
-  - Interactive Dashboard Development
-  - Data Visualization & Storytelling
-  - Statistical Modeling & Econometrics
-  - Bilingual Content Creation (EN/UR)
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="120">
 
-mission: >
-  Transforming complex economic data into clear,
-  actionable insights that drive policy decisions
-  and create public value.
+# 💎 Featured Projects Portfolio
 
-approach:
-  - Mission-driven projects
-  - Pixel-perfect design
-  - Evidence-based insights
-  - Accessible to all audiences
-```
+### 🌟 Real-World Dashboards • Public Impact • Data-Driven Solutions 🌟
 
-##  What I Do
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+</div>
+
+<br>
+
+<!-- ==================== PROJECT 1 ==================== -->
+
+<div align="center">
+
+## 🌡️ Local Climate & Economic Risk Comparison Tool
+
+<img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="80">
+
+**🌍 Compare climate conditions and economic risks across global cities**
+
+<br>
 
 <table>
 <tr>
-<td width="50%">
+<td width="60%">
 
-###  Data Analytics & Visualization
-- Build interactive R Shiny dashboards
-- Design infographics and visual stories
-- Create Tableau & Power BI reports
-- Develop custom data pipelines
+### 📋 Project Overview
 
-</td>
-<td width="50%">
+An **interactive Streamlit application** that empowers users to analyze temperature, precipitation, and economic indicators for informed decision-making. This tool combines climate data with economic metrics to provide comprehensive location analysis.
 
-### Economic Research
-- Econometric modeling & forecasting
-- Policy impact analysis
-- SDG progress tracking
-- Macroeconomic indicators
+### ✨ Key Features
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+- 🌍 **Multi-City Comparison** - Compare climate conditions across global cities
+- 📊 **Economic Risk Indicators** - Analyze cost of living, employment, and growth
+- 📈 **Interactive Visualizations** - Dynamic charts and graphs
+- 🎯 **Real-Time Analysis** - Up-to-date data processing
+- 🗺️ **Geographic Insights** - Location-based recommendations
+- 💡 **Decision Support** - Data-driven relocation guidance
 
-###  Technical Development
-- Web app deployment & optimization
-- Database management (SQL)
-- Frontend design (HTML/CSS/JS)
-- Git version control
+### 🎯 Impact
+
+> *Helping individuals and businesses make informed decisions about relocation, investment, and climate adaptation strategies.*
 
 </td>
-<td width="50%">
+<td width="40%">
 
-###  Public Sector Solutions
-- Bilingual outreach materials
-- Government analytics tools
-- Educational content creation
-- Community impact projects
+<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="280">
+
+<br><br>
+
+**🔗 Project Links**
+
+<a href="https://climate-app-owais.streamlit.app">
+  <img src="https://img.shields.io/badge/🌐_Live_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App" height="40"/>
+</a>
+
+<br><br>
+
+**📊 Tech Stack**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 
 </td>
 </tr>
 </table>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-##  Featured Projects
+</div>
+
+<br><br>
+
+<!-- ==================== PROJECT 2 ==================== -->
 
 <div align="center">
 
-###  Real-World Dashboards • Public Impact • Data-Driven Solutions
+## 🎯 Pakistan SDGs Indicators Dashboard
+
+<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="80">
+
+**🌍 Tracking national progress on Sustainable Development Goals**
+
+<br>
+
+<table>
+<tr>
+<td width="40%">
+
+<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="280">
+
+<br><br>
+
+**🔗 Project Links**
+
+<a href="https://econ-owais.github.io/Pakistan_SDGS-indicator-s-Dashboard/">
+  <img src="https://img.shields.io/badge/🌍_View_Demo-008080?style=for-the-badge" alt="Demo" height="40"/>
+</a>
+
+<br>
+
+<a href="https://econ-owaisali.shinyapps.io/Pakistan-SDGs-Indicators-Dashboard/">
+  <img src="https://img.shields.io/badge/🚀_Full_Dashboard-FF4444?style=for-the-badge" alt="Dashboard" height="40"/>
+</a>
+
+<br><br>
+
+**📊 Tech Stack**
+
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-276DC3?style=flat-square&logo=r&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+</td>
+<td width="60%">
+
+### 📋 Project Overview
+
+**Comprehensive visualization** of Pakistan's SDG progress with interactive filters and trend analysis. This dashboard tracks all 17 Sustainable Development Goals with provincial-level breakdowns and time-series analysis for policy-relevant insights.
+
+### ✨ Key Features
+
+- 📌 **17 SDG Indicators** - Complete tracking of all UN SDG goals
+- 🗺️ **Provincial Breakdowns** - Detailed regional analysis
+- 📈 **Time-Series Analysis** - Historical trends and projections
+- 🎯 **Policy Insights** - Data-driven recommendations
+- 🔍 **Interactive Filters** - Dynamic data exploration
+- 📊 **Visual Analytics** - Intuitive charts and graphs
+- 📥 **Export Features** - Download reports and data
+
+### 🎯 Impact
+
+> *Supporting policymakers, researchers, and NGOs in monitoring Pakistan's progress toward achieving the UN's 2030 Agenda for Sustainable Development.*
+
+### 📊 Key Metrics Tracked
+
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/17-SDG_Goals-28A745?style=for-the-badge" alt="Goals"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/5-Provinces-007BFF?style=for-the-badge" alt="Provinces"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/10+-Years-FFC107?style=for-the-badge" alt="Years"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/100+-Indicators-DC3545?style=for-the-badge" alt="Indicators"/>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<br><br>
+
+<!-- ==================== PROJECT 3 ==================== -->
+
+<div align="center">
+
+## 🌊 KPK Flood Impact Infographic
+
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="80">
+
+**💧 Visualizing flood-affected zones in Khyber Pakhtunkhwa**
+
+<br>
+
+<table>
+<tr>
+<td width="60%">
+
+### 📋 Project Overview
+
+**Crisis mapping and impact analysis** for disaster response planning and public education. This comprehensive dashboard provides real-time visualization of flood-affected areas, population impact, and infrastructure damage for emergency management.
+
+### ✨ Key Features
+
+- 🗺️ **Geographic Flood Mapping** - Interactive maps of affected regions
+- 📊 **District-Wise Assessment** - Detailed damage analysis by district
+- 👥 **Population Impact** - Affected households and displacement data
+- 🏘️ **Infrastructure Tracking** - Roads, bridges, and building damage
+- 📈 **Temporal Analysis** - Flood progression over time
+- 🚨 **Emergency Metrics** - Critical response indicators
+- 💰 **Economic Impact** - Financial loss estimates
+
+### 🎯 Impact
+
+> *Supporting disaster management authorities, relief organizations, and government agencies in coordinating effective flood response and recovery efforts.*
+
+### 📊 Damage Metrics
+
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/Districts-Affected-FF6B6B?style=for-the-badge" alt="Districts"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Population-Impact-4ECDC4?style=for-the-badge" alt="Population"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Infrastructure-Damage-F7B731?style=for-the-badge" alt="Infrastructure"/>
+</td>
+</tr>
+</table>
+
+</td>
+<td width="40%">
+
+<img src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif" width="280">
+
+<br><br>
+
+**🔗 Project Links**
+
+<a href="https://econ-owais.github.io/KPK-Flood-Impact-Infographic-/">
+  <img src="https://img.shields.io/badge/📊_View_Infographic-FF8C00?style=for-the-badge" alt="Infographic" height="40"/>
+</a>
+
+<br>
+
+<a href="https://econ-owaisali.shinyapps.io/kpk_flood_dashboard/">
+  <img src="https://img.shields.io/badge/🚀_Full_Dashboard-FF4444?style=for-the-badge" alt="Dashboard" height="40"/>
+</a>
+
+<br><br>
+
+**📊 Tech Stack**
+
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-276DC3?style=flat-square&logo=r&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
+![GIS](https://img.shields.io/badge/GIS-326CE5?style=flat-square&logo=qgis&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<br><br>
+
+<!-- ==================== PROJECT 4 ==================== -->
+
+<div align="center">
+
+## 🥗 Healthy Diet Affordability Dashboard
+
+<img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="80">
+
+**💰 Analyzing nutritious diet affordability across Pakistan**
+
+<br>
+
+<table>
+<tr>
+<td width="40%">
+
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="280">
+
+<br><br>
+
+**🔗 Project Links**
+
+<a href="https://econ-owais.github.io/Healthy-Diet-Affordability-Dashboard/">
+  <img src="https://img.shields.io/badge/🥦_View_Demo-32CD32?style=for-the-badge" alt="Demo" height="40"/>
+</a>
+
+<br>
+
+<a href="https://econ-owaisali.shinyapps.io/Healthy-Diet-Dashboard/">
+  <img src="https://img.shields.io/badge/🚀_Full_Dashboard-FF4444?style=for-the-badge" alt="Dashboard" height="40"/>
+</a>
+
+<br><br>
+
+**📊 Tech Stack**
+
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-276DC3?style=flat-square&logo=r&logoColor=white)
+![ggplot2](https://img.shields.io/badge/ggplot2-276DC3?style=flat-square&logo=r&logoColor=white)
+![dplyr](https://img.shields.io/badge/dplyr-276DC3?style=flat-square&logo=r&logoColor=white)
+
+</td>
+<td width="60%">
+
+### 📋 Project Overview
+
+Using **FAO data** to track food security and dietary cost trends for policy interventions. This dashboard analyzes the affordability of nutritious diets across Pakistan, identifying vulnerable populations and tracking trends over time.
+
+### ✨ Key Features
+
+- 💰 **Cost Analysis** - Detailed breakdown of healthy diet costs
+- 📊 **Affordability Trends** - Temporal changes in diet affordability
+- 🍎 **Nutritional Indicators** - Essential nutrient availability tracking
+- 🌾 **Food Group Analysis** - Breakdown by protein, vegetables, fruits, etc.
+- 🗺️ **Regional Disparities** - Province and district-level comparison
+- 📈 **Inflation Impact** - Price change analysis over time
+- 🎯 **Policy Recommendations** - Data-driven intervention suggestions
+
+### 🎯 Impact
+
+> *Informing food security policies, nutrition programs, and economic interventions to ensure all Pakistanis can afford healthy diets.*
+
+### 📊 Monitoring Metrics
+
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/Food_Groups-Tracked-28A745?style=for-the-badge" alt="Food Groups"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Cost-Trends-007BFF?style=for-the-badge" alt="Trends"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Affordability-Index-FFC107?style=for-the-badge" alt="Index"/>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<br><br>
+
+<!-- ==================== PROJECT 5 ==================== -->
+
+<div align="center">
+
+## 🇵🇰 Pakistan Development Indicators Dashboard
+
+<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="80">
+
+**📊 Comprehensive socio-economic trends with interactive filters**
+
+<br>
+
+<table>
+<tr>
+<td width="60%">
+
+### 📋 Project Overview
+
+**Comprehensive development indicators dashboard** with branded design and export features. This platform provides a holistic view of Pakistan's socio-economic progress across multiple sectors including education, health, energy, and agriculture.
+
+### ✨ Key Features
+
+- 📚 **Education Metrics** - Literacy rates, enrollment, and outcomes
+- 🏥 **Health Statistics** - Healthcare access and outcomes
+- ⚡ **Energy Access** - Electricity coverage and reliability
+- 🌾 **Agricultural Data** - Crop yields and farming statistics
+- 💼 **Economic Indicators** - Employment, poverty, and growth
+- 🏗️ **Infrastructure** - Roads, water, sanitation development
+- 📊 **Multi-Sector Analysis** - Cross-sectoral insights
+- 📥 **Export Functionality** - Download customizable reports
+
+### 🎯 Impact
+
+> *Providing government agencies, researchers, and development organizations with comprehensive data for evidence-based policymaking.*
+
+### 📊 Sectors Covered
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="60">
+<br><b>Education</b>
+</td>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="60">
+<br><b>Health</b>
+</td>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="60">
+<br><b>Energy</b>
+</td>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="60">
+<br><b>Agriculture</b>
+</td>
+</tr>
+</table>
+
+</td>
+<td width="40%">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="280">
+
+<br><br>
+
+**🔗 Project Links**
+
+<a href="https://econ-owais.github.io/pakistan-indicators-dashboard./">
+  <img src="https://img.shields.io/badge/🔎_Live_Demo-00FF00?style=for-the-badge" alt="Demo" height="40"/>
+</a>
+
+<br>
+
+<a href="https://econ-owaisali.shinyapps.io/irrigation_project/">
+  <img src="https://img.shields.io/badge/💻_Full_Dashboard-1A1A1A?style=for-the-badge" alt="Dashboard" height="40"/>
+</a>
+
+<br><br>
+
+**📊 Tech Stack**
+
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-276DC3?style=flat-square&logo=r&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<br><br>
+
+<!-- ==================== PROJECT 6 ==================== -->
+
+<div align="center">
+
+## 📉 Pakistan Macro Indicators Dashboard
+
+<img src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif" width="80">
+
+**💹 Macroeconomic data for decision-makers**
+
+<br>
+
+<table>
+<tr>
+<td width="40%">
+
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="280">
+
+<br><br>
+
+**🔗 Project Links**
+
+<a href="https://econ-owais.github.io/Pakistan-Macro-Indicators-Dashboard/">
+  <img src="https://img.shields.io/badge/📊_View_Demo-9370DB?style=for-the-badge" alt="Demo" height="40"/>
+</a>
+
+<br>
+
+<a href="https://econ-owaisali.shinyapps.io/Pakistan-macro-indicator-Dashboard/">
+  <img src="https://img.shields.io/badge/🚀_Full_Dashboard-FF4444?style=for-the-badge" alt="Dashboard" height="40"/>
+</a>
+
+<br><br>
+
+**📊 Tech Stack**
+
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-276DC3?style=flat-square&logo=r&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Time Series](https://img.shields.io/badge/Time_Series-276DC3?style=flat-square&logo=r&logoColor=white)
+
+</td>
+<td width="60%">
+
+### 📋 Project Overview
+
+Track **inflation, GDP, trade balance**, and key economic indicators in real-time. This comprehensive macroeconomic dashboard provides decision-makers with critical insights into Pakistan's economic performance and trends.
+
+### ✨ Key Features
+
+- 💹 **GDP Growth Trends** - Quarterly and annual GDP analysis
+- 💰 **Inflation Rates** - CPI, WPI, and sectoral inflation tracking
+- 📦 **Trade Statistics** - Imports, exports, and trade balance
+- 💱 **Exchange Rates** - Currency trends and volatility analysis
+- 🏦 **Monetary Indicators** - Interest rates and money supply
+- 📊 **Fiscal Metrics** - Government revenue and expenditure
+- 🎯 **Economic Forecasting** - Trend analysis and projections
+- 📈 **Comparative Analysis** - Historical and regional comparisons
+
+### 🎯 Impact
+
+> *Enabling economists, policymakers, investors, and businesses to make informed decisions based on real-time macroeconomic data.*
+
+### 📊 Key Indicators
+
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/GDP-Growth-28A745?style=for-the-badge" alt="GDP"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Inflation-CPI-DC3545?style=for-the-badge" alt="Inflation"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Trade-Balance-007BFF?style=for-the-badge" alt="Trade"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Exchange-Rate-FFC107?style=for-the-badge" alt="Exchange"/>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<br><br>
+
+<!-- ==================== PROJECT 7 ==================== -->
+
+<div align="center">
+
+## 🚜 Irrigation Dashboard for Pakistan
+
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="80">
+
+**💧 Water resource analytics for agricultural planning**
+
+<br>
+
+<table>
+<tr>
+<td width="60%">
+
+### 📋 Project Overview
+
+**Policy-focused dashboard** for irrigation management and agricultural water use optimization. This specialized tool helps water resource managers and agricultural planners make data-driven decisions about irrigation infrastructure and water allocation.
+
+### ✨ Key Features
+
+- 💧 **Water Availability** - Reservoir levels and seasonal flows
+- 🌾 **Crop Requirements** - Water needs by crop type and season
+- 📊 **District Distribution** - Regional water allocation analysis
+- 🎯 **Efficiency Metrics** - Irrigation system performance indicators
+- 🗺️ **Canal Network** - Infrastructure mapping and status
+- 📈 **Historical Trends** - Multi-year water availability patterns
+- 🌦️ **Climate Integration** - Rainfall and temperature impact
+- 💡 **Optimization Tools** - Water allocation recommendations
+
+### 🎯 Impact
+
+> *Supporting sustainable water management, improving agricultural productivity, and ensuring equitable water distribution across Pakistan's irrigation network.*
+
+### 📊 Analysis Features
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="60">
+<br><b>Water Resources</b>
+</td>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="60">
+<br><b>Crop Analysis</b>
+</td>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="60">
+<br><b>Efficiency</b>
+</td>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif" width="60">
+<br><b>Distribution</b>
+</td>
+</tr>
+</table>
+
+</td>
+<td width="40%">
+
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="280">
+
+<br><br>
+
+**🔗 Project Link**
+
+<a href="https://econ-owaisali.shinyapps.io/irrigation_project/">
+  <img src="https://img.shields.io/badge/🚜_Launch_App-1E90FF?style=for-the-badge" alt="App" height="40"/>
+</a>
+
+<br><br>
+
+**📊 Tech Stack**
+
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-276DC3?style=flat-square&logo=r&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
+![Spatial Analysis](https://img.shields.io/badge/Spatial-326CE5?style=flat-square&logo=qgis&logoColor=white)
+
+<br><br>
+
+**💧 Coverage**
+
+<img src="https://img.shields.io/badge/Districts-Covered-4ECDC4?style=for-the-badge" alt="Districts"/>
+<img src="https://img.shields.io/badge/Canals-Tracked-F7B731?style=for-the-badge" alt="Canals"/>
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<br><br><br>
+
+<!-- ====================================================================== -->
+<!--                    💻 TECH STACK & EXPERTISE 💻                       -->
+<!-- ====================================================================== -->
+
+<div align="center">
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-</div>
+<br>
 
-<details open>
-<summary><h3>🌡️ PROJECT 1 — Local Climate & Economic Risk Comparison Tool</h3></summary>
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
 
-<div align="center">
+# 🛠️ Tech Stack & Tools
 
-<img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="60">
-
-**Compare climate conditions and economic risks across global cities**
-
-*An interactive Streamlit app that empowers users to analyze temperature, precipitation, and economic indicators for informed decision-making.*
+### 🎯 Technologies I Master
 
 <br>
 
-[![Live App](https://img.shields.io/badge/🌐_Live_App-00D9FF?style=for-the-badge&logoColor=white)](https://climate-app-owais.streamlit.app)
-
-**Key Features:**
-- 🌍 Multi-city climate comparison
-- 📊 Economic risk indicators
-- 📈 Interactive visualizations
-- 🎯 Real-time data analysis
-
 </div>
 
-</details>
-
-<details open>
-<summary><h3>🎯 PROJECT 2 — Pakistan SDGs Indicators Dashboard</h3></summary>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="60">
-
-**Tracking national progress on Sustainable Development Goals**
-
-*Comprehensive visualization of Pakistan's SDG progress with interactive filters and trend analysis.*
-
-<br>
-
-[![Demo](https://img.shields.io/badge/🌍_View_Demo-008080?style=for-the-badge)](https://econ-owais.github.io/Pakistan_SDGS-indicator-s-Dashboard/)
-[![Dashboard](https://img.shields.io/badge/🚀_Full_Dashboard-FF4444?style=for-the-badge)](https://econ-owaisali.shinyapps.io/Pakistan-SDGs-Indicators-Dashboard/)
-
-**Impact:**
-- 📌 17 SDG indicators tracked
-- 📊 Provincial-level breakdowns
-- 📈 Time-series analysis
-- 🎯 Policy-relevant insights
-
-</div>
-
-</details>
-
-<details open>
-<summary><h3>🌊 PROJECT 3 — KPK Flood Impact Infographic</h3></summary>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="60">
-
-**Visualizing flood-affected zones in Khyber Pakhtunkhwa**
-
-*Crisis mapping and impact analysis for disaster response planning and public education.*
-
-<br>
-
-[![Infographic](https://img.shields.io/badge/📊_View_Infographic-FF8C00?style=for-the-badge)](https://econ-owais.github.io/KPK-Flood-Impact-Infographic-/)
-[![Dashboard](https://img.shields.io/badge/🚀_Full_Dashboard-FF4444?style=for-the-badge)](https://econ-owaisali.shinyapps.io/kpk_flood_dashboard/)
-
-**Features:**
-- 🗺️ Geographic flood mapping
-- 📊 District-wise damage assessment
-- 👥 Population impact analysis
-- 🏘️ Infrastructure damage tracking
-
-</div>
-
-</details>
-
-<details open>
-<summary><h3>🥗 PROJECT 4 — Healthy Diet Affordability Dashboard</h3></summary>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="60">
-
-**Analyzing nutritious diet affordability across Pakistan**
-
-*Using FAO data to track food security and dietary cost trends for policy interventions.*
-
-<br>
-
-[![Demo](https://img.shields.io/badge/🥦_View_Demo-32CD32?style=for-the-badge)](https://econ-owais.github.io/Healthy-Diet-Affordability-Dashboard/)
-[![Dashboard](https://img.shields.io/badge/🚀_Full_Dashboard-FF4444?style=for-the-badge)](https://econ-owaisali.shinyapps.io/Healthy-Diet-Dashboard/)
-
-**Metrics:**
-- 💰 Cost of healthy diets
-- 📊 Affordability trends
-- 🍎 Nutritional indicators
-- 🌾 Food group analysis
-
-</div>
-
-</details>
-
-<details open>
-<summary><h3>🇵🇰 PROJECT 5 — Pakistan Development Indicators Dashboard</h3></summary>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="60">
-
-**Socio-economic trends with interactive filters**
-
-*Comprehensive development indicators dashboard with branded design and export features.*
-
-<br>
-
-[![Demo](https://img.shields.io/badge/🔎_Live_Demo-00FF00?style=for-the-badge)](https://econ-owais.github.io/pakistan-indicators-dashboard./)
-[![Dashboard](https://img.shields.io/badge/💻_Full_Dashboard-1A1A1A?style=for-the-badge)](https://econ-owaisali.shinyapps.io/irrigation_project/)
-
-**Indicators:**
-- 📚 Education metrics
-- 🏥 Health statistics
-- ⚡ Energy access
-- 🌾 Agricultural data
-
-</div>
-
-</details>
-
-<details open>
-<summary><h3>📉 PROJECT 6 — Pakistan Macro Indicators Dashboard</h3></summary>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif" width="60">
-
-**Macroeconomic data for decision-makers**
-
-*Track inflation, GDP, trade balance, and key economic indicators in real-time.*
-
-<br>
-
-[![Demo](https://img.shields.io/badge/📊_View_Demo-9370DB?style=for-the-badge)](https://econ-owais.github.io/Pakistan-Macro-Indicators-Dashboard/)
-[![Dashboard](https://img.shields.io/badge/🚀_Full_Dashboard-FF4444?style=for-the-badge)](https://econ-owaisali.shinyapps.io/Pakistan-macro-indicator-Dashboard/)
-
-**Metrics:**
-- 💹 GDP growth trends
-- 💰 Inflation rates
-- 📦 Trade statistics
-- 💱 Exchange rates
-
-</div>
-
-</details>
-
-<details open>
-<summary><h3>🚜 PROJECT 7 — Irrigation Dashboard for Pakistan</h3></summary>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="60">
-
-**Water resource analytics for agricultural planning**
-
-*Policy-focused dashboard for irrigation management and agricultural water use optimization.*
-
-<br>
-
-[![Launch App](https://img.shields.io/badge/🚜_Launch_App-1E90FF?style=for-the-badge)](https://econ-owaisali.shinyapps.io/irrigation_project/)
-
-**Analysis:**
-- 💧 Water availability trends
-- 🌾 Crop water requirements
-- 📊 District-wise distribution
-- 🎯 Efficiency metrics
-
-</div>
-
-</details>
-
----
-
-## 🛠️ Tech Stack & Tools
-
+<!-- Programming Languages -->
 <div align="center">
 
 ### 💻 Programming & Analysis
 
-<p>
-  <img src="https://skillicons.dev/icons?i=r,python,html,css,js,bootstrap" />
-</p>
-
-### 📊 Data & Visualization
+<br>
 
 <p>
-  <img src="https://img.shields.io/badge/R_Shiny-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-  <img src="https://img.shields.io/badge/Stata-1A5490?style=for-the-badge&logo=stata&logoColor=white" />
-  <img src="https://img.shields.io/badge/SPSS-052FAD?style=for-the-badge&logo=spss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=r,python,html,css,js,bootstrap" height="50"/>
 </p>
 
-### 🔧 Development Tools
+<br>
+
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<!-- Data & Visualization -->
+<div align="center">
+
+### 📊 Data Analysis & Visualization
+
+<br>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,rstudio" />
+  <img src="https://img.shields.io/badge/R_Shiny-276DC3?style=for-the-badge&logo=r&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" height="35"/>
 </p>
 
-### 📈 Specialized Skills
+<p>
+  <img src="https://img.shields.io/badge/ggplot2-276DC3?style=for-the-badge&logo=r&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" height="35"/>
+</p>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<!-- Statistical Tools -->
+<div align="center">
+
+### 📈 Statistical & Econometric Analysis
+
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/Stata-1A5490?style=for-the-badge&logo=stata&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/SPSS-052FAD?style=for-the-badge&logo=spss&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/EViews-004B87?style=for-the-badge&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" height="35"/>
+</p>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<!-- Database & Version Control -->
+<div align="center">
+
+### 🗄️ Database & Version Control
+
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="35"/>
+</p>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<!-- Development Tools -->
+<div align="center">
+
+### 🔧 Development Environment
+
+<br>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=vscode,rstudio,git,github" height="50"/>
+</p>
+
+<br>
+
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=rstudio&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<!-- Specialized Skills -->
+<div align="center">
+
+### 🎓 Specialized Skills
+
+<br>
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
-<br><b>Data Wrangling</b>
+<br><br>
+<b>📊 Data Wrangling</b>
+<br><br>
+<sub>Cleaning • Transformation<br>Integration • Validation</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
-<br><b>Statistical Modeling</b>
+<br><br>
+<b>📈 Statistical Modeling</b>
+<br><br>
+<sub>Regression • Time Series<br>Forecasting • Econometrics</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
-<br><b>Dashboard Design</b>
+<br><br>
+<b>🎨 Dashboard Design</b>
+<br><br>
+<sub>UI/UX • Interactivity<br>Branding • Responsive</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
-<br><b>Economic Analysis</b>
+<br><br>
+<b>💼 Economic Analysis</b>
+<br><br>
+<sub>Macro • Micro<br>Policy • Development</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100">
+<br><br>
+<b>🌍 GIS Mapping</b>
+<br><br>
+<sub>Spatial Analysis<br>Cartography • Leaflet</sub>
 </td>
 </tr>
 </table>
 
-</div>
+<br>
 
----
-
-## 🧭 How I Work
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎯 Mission-Driven
-Every project serves a **public or educational purpose**. I focus on creating tools that make a **real difference** in policy-making and public understanding.
-
-</td>
-<td width="50%" valign="top">
-
-### 🧵 Detail-Oriented
-From **pixel-perfect layouts** to **authentic typography**, every element is crafted with precision to ensure professionalism and clarity.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌍 Bilingual-First
-I create **English/Urdu content** to maximize accessibility and ensure economic insights reach diverse audiences across Pakistan.
-
-</td>
-<td width="50%" valign="top">
-
-### 🔄 Iterative Process
-I continuously **refine and improve** projects based on user feedback until every detail aligns with audience needs.
-
-</td>
-</tr>
-</table>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 </div>
 
----
+<br><br>
 
-## 📊 GitHub Statistics
+<!-- ====================================================================== -->
+<!--                    📊 GITHUB STATISTICS 📊                            -->
+<!-- ====================================================================== -->
 
 <div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="120">
+
+# 📊 GitHub Statistics
+
+### 📈 Performance Metrics & Activity Insights
+
+<br>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 <br><br>
 
-<!-- GitHub Stats Cards -->
+<!-- GitHub Stats Row 1 -->
 <a href="https://github.com/econ-owais">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=econ-owais&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=econ-owais&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=econ-owais&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9&ring_color=00D9FF"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=econ-owais&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9&langs_count=10"/>
 </a>
 
 <br><br>
 
 <!-- GitHub Streak Stats -->
 <a href="https://github.com/econ-owais">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=econ-owais&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=econ-owais&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideLabels=00D9FF&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
 </a>
 
 <br><br>
 
 <!-- Activity Graph -->
 <a href="https://github.com/econ-owais">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=econ-owais&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF" alt="Activity Graph" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=econ-owais&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&custom_title=Contribution%20Activity%20Graph" alt="Activity Graph" width="95%"/>
 </a>
 
 <br><br>
 
 <!-- Trophies -->
 <a href="https://github.com/econ-owais">
-  <img src="https://github-profile-trophy.vercel.app/?username=econ-owais&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="Trophy" width="95%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=econ-owais&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15" alt="Trophy" width="95%"/>
 </a>
 
-</div>
+<br><br>
 
----
-
-## 🎯 Key Achievements
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="80">
-<h3>7+</h3>
-<p><b>Public Dashboards</b></p>
-</td>
-<td align="center" width="33%">
-<img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="80">
-<h3>10K+</h3>
-<p><b>Data Points Analyzed</b></p>
-</td>
-<td align="center" width="33%">
-<img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="80">
-<h3>100%</h3>
-<p><b>Open Source</b></p>
-</td>
-</tr>
-</table>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 </div>
 
----
+<br><br>
 
-## 🎨 Project Highlights
-
-<div align="center">
-
-### 🏆 What Makes My Work Stand Out
-
-<table>
-<tr>
-<td width="50%">
-
-#### 📊 Data Storytelling
-- Clear narratives from complex datasets
-- Intuitive visual hierarchies
-- Color-coded insights for quick understanding
-- Interactive filtering and exploration
-
-</td>
-<td width="50%">
-
-#### 🎨 Design Excellence
-- Professional branding and typography
-- Responsive layouts for all devices
-- Accessibility-first approach
-- Consistent visual language
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### ⚡ Technical Performance
-- Optimized load times
-- Smooth interactivity
-- Efficient data processing
-- Cross-browser compatibility
-
-</td>
-<td width="50%">
-
-#### 🌍 Real-World Impact
-- Policy-relevant insights
-- Public sector applications
-- Educational value
-- Community benefit
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 🎉 Fun Facts
-
-<img align="right" src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="280">
-
-- 🏗️ **Built 7+ dashboards** tracking everything from SDGs to irrigation
-- 🔍 **Debug Shiny apps like a detective** — no bug escapes my analysis
-- 🎨 **Fonts matter** — especially in certificates and official materials
-- 📖 **Turn economic models** into visual stories people actually enjoy
-- 🌐 **Bilingual by design** — making data accessible in English & Urdu
-- ⚡ **Pixel-perfect obsessed** — layouts, colors, and dropdowns must align
-- 🎯 **Mission-driven** — every project serves the public good
-
-<br clear="right"/>
-
----
-
-## 🌐 Bilingual Outreach
+<!-- ====================================================================== -->
+<!--                    🏆 KEY ACHIEVEMENTS 🏆                             -->
+<!-- ====================================================================== -->
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="100">
 
-### Breaking Language Barriers in Economics Education
+# 🎯 Key Achievements
 
-I design **bilingual (English/Urdu) outreach materials** to make economics education more accessible across Pakistan. From posters to dashboards, every piece is crafted for **clarity**, **authenticity**, and **local relevance**.
+### 🌟 Impact Metrics & Milestones
 
-**Content Types:**
-- 📄 Research reports & policy briefs
-- 📊 Infographics & data visualizations
-- 🎓 Educational materials & presentations
-- 📱 Social media content & captions
-
-</div>
-
----
-
-## 📬 Let's Connect
-
-<div align="center">
+<br>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 <br><br>
 
-### 💬 I'm Always Open to Collaborate!
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="120">
+<br><br>
+<h2>7+</h2>
+<h4><b>🚀 Public Dashboards</b></h4>
+<p><sub>Live production applications serving<br>government agencies and NGOs</sub></p>
+</td>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="120">
+<br><br>
+<h2>100K+</h2>
+<h4><b>📊 Data Points Analyzed</b></h4>
+<p><sub>Comprehensive datasets processed<br>and visualized for insights</sub></p>
+</td>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="120">
+<br><br>
+<h2>100%</h2>
+<h4><b>💚 Open Source</b></h4>
+<p><sub>All projects freely accessible<br>for public benefit</sub></p>
+</td>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="120">
+<br><br>
+<h2>17</h2>
+<h4><b>🎯 SDG Indicators</b></h4>
+<p><sub>Comprehensive tracking of<br>Sustainable Development Goals</sub></p>
+</td>
+</tr>
+</table>
 
+<br>
+
+<!-- Additional Achievements -->
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="100">
+<br><br>
+<h3>🌍 Multi-Sector Impact</h3>
+<p><sub>Climate • Health • Agriculture<br>Education • Economics</sub></p>
+</td>
+<td align="center" width="33%">
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="100">
+<br><br>
+<h3>📈 Real-Time Analytics</h3>
+<p><sub>Live data processing and<br>interactive visualizations</sub></p>
+</td>
+<td align="center" width="33%">
+<img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="100">
+<br><br>
+<h3>🎨 Award-Worthy Design</h3>
+<p><sub>Professional branding and<br>pixel-perfect layouts</sub></p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+</div>
+
+<br><br>
+
+<!-- ====================================================================== -->
+<!--                    💡 WHAT MAKES ME DIFFERENT 💡                      -->
+<!-- ====================================================================== -->
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+
+# 🎨 What Makes My Work Stand Out
+
+### 💎 Excellence in Every Pixel
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+<br><br>
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 Data Storytelling Excellence
+
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100" align="right">
+
+- ✨ **Clear Narratives** - Transforming complex datasets into compelling stories
+- 🎨 **Intuitive Visual Hierarchies** - Guiding users through data seamlessly
+- 🌈 **Color-Coded Insights** - Quick understanding through strategic design
+- 🔄 **Interactive Exploration** - Dynamic filtering and drill-down capabilities
+- 📈 **Progressive Disclosure** - Revealing complexity gradually
+- 🎯 **Actionable Insights** - Focusing on decision-relevant information
+
+</td>
+<td width="50%" valign="top">
+
+### 🎨 Design Excellence
+
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100" align="right">
+
+- 🏢 **Professional Branding** - Consistent visual identity across all projects
+- 🎯 **Pixel-Perfect Typography** - Authentic fonts and spacing
+- 📱 **Responsive Layouts** - Optimal experience on all devices
+- ♿ **Accessibility-First** - Inclusive design for all users
+- 🎭 **Consistent Visual Language** - Unified design system
+- 🖼️ **Polished Aesthetics** - Premium look and feel
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ Technical Performance
+
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100" align="right">
+
+- 🚀 **Optimized Load Times** - Fast and efficient data processing
+- 🔄 **Smooth Interactivity** - Seamless user experience
+- 💾 **Efficient Algorithms** - Scalable data operations
+- 🌐 **Cross-Browser Compatible** - Works everywhere
+- 📊 **Smart Caching** - Improved performance
+- 🛠️ **Clean Code** - Maintainable and documented
+
+</td>
+<td width="50%" valign="top">
+
+### 🌍 Real-World Impact
+
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100" align="right">
+
+- 📋 **Policy-Relevant Insights** - Supporting evidence-based decisions
+- 🏛️ **Public Sector Applications** - Government and NGO tools
+- 🎓 **Educational Value** - Teaching through visualization
+- 🤝 **Community Benefit** - Open source for public good
+- 🌐 **Bilingual Accessibility** - English & Urdu support
+- 💡 **Innovation Focus** - Pushing boundaries of data visualization
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+</div>
+
+<br><br>
+
+<!-- ====================================================================== -->
+<!--                    🎉 FUN FACTS & WORKING STYLE 🎉                    -->
+<!-- ====================================================================== -->
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="100">
+
+# 🎉 Fun Facts About Me
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="65%" valign="top">
+
+### 🚀 Professional Quirks
+
+<br>
+
+- 🏗️ **Built 7+ dashboards** tracking everything from SDGs to irrigation systems
+- 🔍 **Debug Shiny apps like a detective** — no bug escapes my meticulous analysis
+- 🎨 **Fonts matter** — especially in certificates, official materials, and branding
+- 📖 **Turn economic models** into visual stories people actually understand and enjoy
+- 🌐 **Bilingual by design** — making data accessible in English & Urdu for maximum reach
+- ⚡ **Pixel-perfect obsessed** — layouts, colors, spacing, and dropdowns must align perfectly
+- 🎯 **Mission-driven** — every single project serves the public good and creates impact
+- 📊 **Data storyteller** — I don't just show numbers, I reveal the narrative behind them
+- 🔄 **Iterative perfectionist** — I refine and improve until every detail is flawless
+- 💡 **Problem solver** — I love transforming complex challenges into elegant solutions
+- 🌟 **User-centric** — Every design decision is made with the end user in mind
+- 🏆 **Quality over quantity** — Each project gets the time and attention it deserves
+
+<br>
+
+### 🧭 My Working Philosophy
+
+<br>
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🎯 Mission-Driven
+Every project serves a **public or educational purpose**. I focus on creating tools that make a **real difference** in policy-making, research, and public understanding of complex data.
+
+</td>
+<td width="50%">
+
+#### 🧵 Detail-Oriented
+From **pixel-perfect layouts** to **authentic typography**, every element is crafted with precision to ensure professionalism, clarity, and visual excellence in every dashboard.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 🌍 Bilingual-First
+I create **English/Urdu content** to maximize accessibility and ensure economic insights reach diverse audiences across Pakistan and beyond borders.
+
+</td>
+<td width="50%">
+
+#### 🔄 Iterative Process
+I continuously **refine and improve** projects based on user feedback until every detail aligns perfectly with audience needs and expectations.
+
+</td>
+</tr>
+</table>
+
+</td>
+<td width="35%" align="center" valign="top">
+
+<br><br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="100%">
+
+<br><br>
+
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="200">
+
+<br><br>
+
+### 💼 My Approach
+
+```
+1. 🎯 Understand the problem
+2. 📊 Analyze the data
+3. 🎨 Design the solution
+4. 💻 Build with precision
+5. 🔄 Iterate based on feedback
+6. 🚀 Deploy and maintain
+```
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="200">
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+</div>
+
+<br><br>
+
+<!-- ====================================================================== -->
+<!--                    📬 CONTACT & COLLABORATION 📬                      -->
+<!-- ====================================================================== -->
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/216120986-f2752ca9-fe82-4aa3-befe-0a58db010d85.png" width="100">
+
+# 📬 Let's Connect & Collaborate
+
+### 💬 I'm Always Open to Exciting Opportunities!
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+<br><br>
+
+<!-- Premium Contact Buttons -->
 <p>
   <a href="https://www.linkedin.com/in/owaisali-econ" target="_blank">
-    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/💼_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="45"/>
   </a>
+  &nbsp;&nbsp;
   <a href="mailto:owais.ali.shah.econ@gmail.com">
-    <img src="https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/📧_Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="45"/>
   </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/econ-owais">
-    <img src="https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/🐙_Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="45"/>
   </a>
 </p>
 
 <br>
 
-### 🔗 Quick Links
+<!-- Quick Links Section -->
+### 🔗 Quick Access to My Work
+
+<br>
 
 <p>
-  <a href="https://econ-owais.github.io/Pakistan_SDGS-indicator-s-Dashboard/">
-    <img src="https://img.shields.io/badge/SDGs_Dashboard-008080?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgM0gyMVYyMUgzVjNaIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiLz4KPC9zdmc+" alt="SDGs"/>
+  <a href="https://econ-owaisali.shinyapps.io/Pakistan-SDGs-Indicators-Dashboard/">
+    <img src="https://img.shields.io/badge/🎯_SDGs_Dashboard-008080?style=for-the-badge" alt="SDGs" height="35"/>
   </a>
+  &nbsp;
   <a href="https://econ-owaisali.shinyapps.io/kpk_flood_dashboard/">
-    <img src="https://img.shields.io/badge/Flood_Dashboard-FF8C00?style=flat-square" alt="Flood"/>
-  </a>
-  <a href="https://econ-owaisali.shinyapps.io/Healthy-Diet-Dashboard/">
-    <img src="https://img.shields.io/badge/Health_Dashboard-32CD32?style=flat-square" alt="Health"/>
-  </a>
-  <a href="https://climate-app-owais.streamlit.app">
-    <img src="https://img.shields.io/badge/Climate_Tool-00D9FF?style=flat-square" alt="Climate"/>
-  </a>
-</p>
-
-<br>
-
-### 💡 Interested in:
-- 🤝 Collaborative projects on public sector analytics
-- 📊 Economic research partnerships
-- 🎓 Data visualization for education
-- 🌍 Social impact initiatives
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=170&section=footer&text=Thanks%20for%20Visiting!&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%"/>
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=%22The+goal+is+to+turn+data+into+information%2C;and+information+into+insight.%22;-+Carly+Fiorina" alt="Quote" />
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
-</p>
-
-<p align="center">
-  <b>🧠 Let's connect and build tools that make data speak! 🚀</b>
-</p>
-
-</div>
-
-<!-- Easter Egg -->
-<div align="center">
-  <details>
-  <summary>🎁 Click for a surprise!</summary>
-  <br>
-  <img src="https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif" width="300" alt="Playful cat"/>
-  <p><i>Even data analysts deserve a little fun! 🐱</i></p>
-  </details>
-</div>
-
-<!-- Snake Animation -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
-
----
-
-<div align="center">
-
-**⭐ If you find my work helpful, consider starring my repositories! ⭐**
-
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Open%20Source-💚-green?style=for-the-badge)
-![Data Driven](https://img.shields.io/badge/Data%20Driven-📊-blue?style=for-the-badge)
-
-</div>
+    

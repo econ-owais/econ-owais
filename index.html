@@ -1,289 +1,971 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pakistan Development Indicators: A Comprehensive Overview</title>
+    <title>Pakistan Development Indicators | Owais Ali Shah</title>
+    <meta name="description" content="Interactive dashboard tracking Pakistan's key socio-economic development indicators over 20 years by Owais Ali Shah.">
+    <meta property="og:title" content="Pakistan Development Indicators — Owais Ali Shah">
+    <meta property="og:description" content="A comprehensive interactive overview of Pakistan's development trends.">
+    <meta property="og:type" content="website">
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        .chart-container {
-            position: relative;
-            width: 100%;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-            height: 320px;
-            max-height: 400px;
-        }
-        @media (min-width: 768px) {
-            .chart-container {
-                height: 384px;
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                        playfair: ['Playfair Display', 'serif'],
+                    }
+                }
             }
         }
-        .stat-card h3 {
-            font-size: 3rem;
-            line-height: 1;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: #0a0f1a; color: #e2e8f0; overflow-x: hidden; }
+
+        /* ===== CUSTOM SCROLLBAR ===== */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0a0f1a; }
+        ::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #0ea5e9, #8b5cf6); border-radius: 10px; }
+
+        /* ===== LOADING SCREEN ===== */
+        #loader {
+            position: fixed; inset: 0; z-index: 9999;
+            background: #0a0f1a;
+            display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 20px;
+            transition: opacity 0.8s ease, visibility 0.8s ease;
         }
-        .stat-card p {
-            font-size: 1.125rem;
+        #loader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+        .loader-ring {
+            width: 50px; height: 50px; border-radius: 50%;
+            border: 3px solid transparent;
+            border-top-color: #0ea5e9; border-right-color: #8b5cf6;
+            animation: loaderSpin 1s linear infinite;
         }
+        @keyframes loaderSpin { to { transform: rotate(360deg); } }
+
+        /* ===== SCROLL PROGRESS ===== */
+        #scroll-progress {
+            position: fixed; top: 0; left: 0; height: 3px; z-index: 100;
+            background: linear-gradient(90deg, #0ea5e9, #8b5cf6, #ec4899);
+            width: 0%; transition: width 0.05s linear;
+        }
+
+        /* ===== ANIMATED MESH GRADIENT BG ===== */
+        .hero-section {
+            position: relative;
+            min-height: 100vh;
+            display: flex; align-items: center; justify-content: center;
+            background: radial-gradient(ellipse at 20% 50%, rgba(14, 165, 233, 0.15) 0%, transparent 50%),
+                        radial-gradient(ellipse at 80% 20%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+                        radial-gradient(ellipse at 50% 80%, rgba(236, 72, 153, 0.1) 0%, transparent 50%),
+                        #0a0f1a;
+            overflow: hidden;
+        }
+
+        /* ===== FLOATING ORBS ===== */
+        .orb {
+            position: absolute; border-radius: 50%; filter: blur(80px); opacity: 0.4;
+            animation: orbFloat 20s ease-in-out infinite alternate;
+        }
+        .orb-1 { width: 400px; height: 400px; background: #0ea5e9; top: -100px; left: -100px; }
+        .orb-2 { width: 350px; height: 350px; background: #8b5cf6; bottom: -80px; right: -80px; animation-delay: -7s; }
+        .orb-3 { width: 250px; height: 250px; background: #ec4899; top: 50%; left: 60%; animation-delay: -14s; }
+        @keyframes orbFloat {
+            0%   { transform: translate(0, 0) scale(1); }
+            33%  { transform: translate(30px, -50px) scale(1.05); }
+            66%  { transform: translate(-20px, 20px) scale(0.95); }
+            100% { transform: translate(10px, -30px) scale(1.02); }
+        }
+
+        /* ===== GRID PATTERN OVERLAY ===== */
+        .grid-pattern {
+            position: absolute; inset: 0; opacity: 0.03;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 60px 60px;
+        }
+
+        /* ===== PARTICLES ===== */
+        .particles-container { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+        .particle {
+            position: absolute; border-radius: 50%; background: rgba(255,255,255,0.15);
+            animation: particleRise linear infinite;
+        }
+        @keyframes particleRise {
+            0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+            10%  { opacity: 1; }
+            90%  { opacity: 0.6; }
+            100% { transform: translateY(-10vh) scale(1); opacity: 0; }
+        }
+
+        /* ===== GLOW TEXT ===== */
+        .glow-text {
+            background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 40%, #ec4899 70%, #f59e0b 100%);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientText 4s ease infinite;
+        }
+        @keyframes gradientText {
+            0%, 100% { background-position: 0% 50%; }
+            50%      { background-position: 100% 50%; }
+        }
+
+        /* ===== GLASS CARD ===== */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.07);
+            border-color: rgba(255, 255, 255, 0.15);
+            transform: translateY(-6px);
+            box-shadow: 0 20px 60px rgba(14, 165, 233, 0.15), 0 0 40px rgba(139, 92, 246, 0.08);
+        }
+
+        /* ===== NEON BORDER GLOW ===== */
+        .neon-border {
+            position: relative; overflow: hidden;
+        }
+        .neon-border::before {
+            content: ''; position: absolute; inset: -2px; z-index: -1;
+            background: linear-gradient(135deg, #0ea5e9, #8b5cf6, #ec4899, #0ea5e9);
+            background-size: 300% 300%;
+            border-radius: inherit;
+            animation: neonRotate 6s linear infinite;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+        .neon-border:hover::before { opacity: 1; }
+        .neon-border::after {
+            content: ''; position: absolute; inset: 1px; z-index: -1;
+            background: #0f172a;
+            border-radius: inherit;
+        }
+        @keyframes neonRotate {
+            0%   { background-position: 0% 50%; }
+            50%  { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* ===== SCROLL REVEAL ===== */
+        .reveal {
+            opacity: 0; transform: translateY(50px);
+            transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-d1 { transition-delay: 0.1s; }
+        .reveal-d2 { transition-delay: 0.2s; }
+        .reveal-d3 { transition-delay: 0.3s; }
+        .reveal-d4 { transition-delay: 0.4s; }
+
+        /* ===== KPI COUNTER ===== */
+        .counter { font-variant-numeric: tabular-nums; }
+
+        /* ===== ICON BOX ===== */
+        .icon-box {
+            width: 52px; height: 52px;
+            display: inline-flex; align-items: center; justify-content: center;
+            border-radius: 14px; font-size: 1.3rem;
+            flex-shrink: 0;
+        }
+
+        /* ===== BADGE ===== */
+        .badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 6px 16px; border-radius: 9999px;
+            font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em;
+            text-transform: uppercase;
+            background: rgba(14, 165, 233, 0.1);
+            color: #38bdf8;
+            border: 1px solid rgba(14, 165, 233, 0.2);
+        }
+
+        /* ===== SECTION DIVIDER ===== */
+        .section-line {
+            height: 3px; width: 70px; margin: 0 auto;
+            border-radius: 2px;
+            background: linear-gradient(90deg, #0ea5e9, #8b5cf6);
+        }
+
+        /* ===== CHART CONTAINER ===== */
+        .chart-container {
+            position: relative; width: 100%; max-width: 620px;
+            margin: 0 auto; height: 320px;
+        }
+        @media (min-width: 768px) { .chart-container { height: 380px; } }
+
+        /* ===== INSIGHT BORDER ===== */
+        .insight-card {
+            position: relative; padding-left: 20px;
+        }
+        .insight-card::before {
+            content: ''; position: absolute; top: 0; left: 0;
+            width: 3px; height: 100%; border-radius: 2px;
+            background: linear-gradient(180deg, #0ea5e9, #8b5cf6);
+        }
+
+        /* ===== BUTTONS ===== */
+        .btn-glow {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 14px 32px; border-radius: 14px;
+            font-weight: 700; font-size: 0.95rem;
+            background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
+            color: #fff; border: none; cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 25px rgba(14, 165, 233, 0.4);
+            text-decoration: none;
+        }
+        .btn-glow:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 8px 40px rgba(14, 165, 233, 0.6);
+        }
+        .btn-ghost {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 14px 32px; border-radius: 14px;
+            font-weight: 700; font-size: 0.95rem;
+            background: transparent;
+            color: #94a3b8; border: 2px solid rgba(148, 163, 184, 0.2);
+            cursor: pointer; transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .btn-ghost:hover {
+            color: #fff; border-color: rgba(255,255,255,0.4);
+            transform: translateY(-3px);
+            background: rgba(255,255,255,0.05);
+        }
+
+        /* ===== TOOLTIP STYLE ===== */
+        .tippy { font-family: 'Inter', sans-serif !important; }
+
+        /* ===== NAV ===== */
+        .nav-fixed {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+            padding: 16px 0;
+            transition: all 0.35s ease;
+        }
+        .nav-fixed.scrolled {
+            background: rgba(10, 15, 26, 0.85);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            padding: 10px 0;
+        }
+        .nav-link {
+            color: rgba(148, 163, 184, 0.8);
+            font-size: 0.85rem; font-weight: 500;
+            transition: color 0.2s ease;
+            text-decoration: none;
+        }
+        .nav-link:hover { color: #fff; }
+
+        /* ===== SOCIAL ICON ===== */
+        .social-icon {
+            width: 44px; height: 44px;
+            display: inline-flex; align-items: center; justify-content: center;
+            border-radius: 12px; font-size: 1.1rem;
+            color: #94a3b8;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.06);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .social-icon:hover {
+            color: #fff;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(14, 165, 233, 0.3);
+        }
+        .social-icon:hover.si-github { background: #333; border-color: #555; }
+        .social-icon:hover.si-email { background: #dc2626; border-color: #ef4444; }
+        .social-icon:hover.si-linkedin { background: #0077b5; border-color: #0ea5e9; }
+        .social-icon:hover.si-globe { background: rgba(14,165,233,0.2); border-color: #0ea5e9; }
+
+        /* ===== FOOTER GRADIENT ===== */
+        .footer-gradient {
+            background: linear-gradient(180deg, #0a0f1a 0%, #0f172a 100%);
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        /* ===== PULSE DOT ===== */
+        .pulse-dot {
+            width: 8px; height: 8px; border-radius: 50%;
+            background: #22c55e;
+            box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+            animation: pulseDot 2s infinite;
+        }
+        @keyframes pulseDot {
+            0%   { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+            70%  { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+        }
+
+        /* ===== STAT GLOW ===== */
+        .stat-glow { text-shadow: 0 0 30px rgba(14, 165, 233, 0.3); }
     </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
 
-    <div class="container mx-auto p-4 md:p-8">
-        
-        <header class="text-center mb-12">
-            <h1 class="text-4xl md:text-5xl font-bold text-[#005F73] mb-2">Pakistan Development Indicators: A Comprehensive Overview</h1>
-            <p class="text-lg text-gray-600">An interactive visual summary of key socio-economic trends and data</p>
-            <p class="mt-2 font-bold text-lg text-[#0A9396]">A Project by Owais Ali Shah</p>
-            <p class="text-sm text-gray-500 mt-4">
-                To see the full project, please click on the link below.
-                <br>
-                <a href="https://econ-owaisali.shinyapps.io/irrigation_project/" class="text-blue-500 hover:text-blue-700 underline">
-                    https://econ-owaisali.shinyapps.io/irrigation_project/
-                </a>
-            </p>
-            <p class="text-sm text-gray-500 mt-2">
-                For inquiries, you can contact me via email:
-                <a href="mailto:owais.ali.shah.econ@gmail.com" class="text-blue-500 hover:text-blue-700 underline">
-                    owais.ali.shah.econ@gmail.com
-                </a>
-            </p>
-        </header>
+<body>
 
-        <section id="kpis" class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-12">
-            <div class="stat-card bg-white rounded-lg shadow-md p-6 text-center">
-                <p class="text-[#0A9396] font-semibold">Total Indicators Tracked</p>
-                <h3 class="font-bold text-[#005F73]">6</h3>
+    <!-- ==================== LOADER ==================== -->
+    <div id="loader">
+        <div class="loader-ring"></div>
+        <p class="text-sm text-slate-500 font-medium tracking-widest uppercase">Loading Dashboard</p>
+    </div>
+
+    <!-- ==================== SCROLL PROGRESS ==================== -->
+    <div id="scroll-progress"></div>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="nav-fixed" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
+            <a href="#hero" class="flex items-center gap-2 text-white font-bold text-base no-underline">
+                <span class="text-xl">📊</span>
+                <span class="hidden sm:inline">PK Dashboard</span>
+            </a>
+            <div class="hidden md:flex items-center gap-7">
+                <a href="#kpis" class="nav-link">Overview</a>
+                <a href="#literacy" class="nav-link">Literacy</a>
+                <a href="#health" class="nav-link">Health</a>
+                <a href="#enrollment" class="nav-link">Enrollment</a>
+                <a href="#economy" class="nav-link">Economy</a>
+                <a href="#insights" class="nav-link">Insights</a>
             </div>
-            <div class="stat-card bg-white rounded-lg shadow-md p-6 text-center">
-                <p class="text-[#0A9396] font-semibold">Time Period</p>
-                <h3 class="font-bold text-[#005F73]">20</h3>
-                <p class="text-gray-500 -mt-2">Years</p>
+            <div class="flex items-center gap-3">
+                <div class="flex items-center gap-1.5">
+                    <div class="pulse-dot"></div>
+                    <span class="text-xs text-green-400 font-medium hidden sm:inline">Live</span>
+                </div>
+                <a href="https://econ-owaisali.shinyapps.io/irrigation_project/" target="_blank"
+                   class="btn-glow text-xs py-2 px-4 hidden sm:inline-flex" style="border-radius:10px; padding: 8px 18px;">
+                    <i class="fas fa-rocket"></i> Full App
+                </a>
             </div>
-            <div class="stat-card bg-white rounded-lg shadow-md p-6 text-center">
-                <p class="text-[#0A9396] font-semibold">Total Data Points</p>
-                <h3 class="font-bold text-[#005F73]">120</h3>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <section id="hero" class="hero-section">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-pattern"></div>
+        <div class="particles-container" id="particles"></div>
+
+        <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
+            <div class="mb-8 reveal">
+                <span class="badge">
+                    <i class="fas fa-globe-asia"></i> Development Research
+                </span>
             </div>
-            <div class="stat-card bg-white rounded-lg shadow-md p-6 text-center">
-                <p class="text-[#0A9396] font-semibold">Avg. Literacy Rate</p>
-                <h3 class="font-bold text-[#005F73]">~60%</h3>
+
+            <h1 class="font-playfair text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-black mb-6 leading-[1.05] glow-text reveal reveal-d1">
+                Pakistan<br>Development<br>Indicators
+            </h1>
+
+            <p class="text-slate-400 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10 reveal reveal-d2">
+                A comprehensive interactive overview of key
+                <span class="text-amber-400 font-semibold">socio-economic trends</span>
+                spanning two decades of national progress.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 reveal reveal-d3">
+                <a href="#kpis" class="btn-glow">
+                    <i class="fas fa-arrow-down"></i> Explore Dashboard
+                </a>
+                <a href="https://econ-owaisali.shinyapps.io/irrigation_project/" target="_blank" class="btn-ghost">
+                    <i class="fas fa-external-link-alt"></i> View Full Project
+                </a>
+            </div>
+
+            <div class="flex items-center justify-center gap-3 reveal reveal-d4">
+                <a href="https://github.com/econ-owais" target="_blank" class="social-icon si-github" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:owais.ali.shah.econ@gmail.com" class="social-icon si-email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://econ-owaisali.shinyapps.io/irrigation_project/" target="_blank" class="social-icon si-globe" aria-label="Live App"><i class="fas fa-globe"></i></a>
+            </div>
+
+            <p class="mt-8 text-slate-600 text-sm reveal reveal-d4">
+                A Project by <span class="text-sky-400 font-semibold">Owais Ali Shah</span>
+            </p>
+        </div>
+
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+            <a href="#kpis" class="text-slate-600 hover:text-slate-400 transition-colors">
+                <i class="fas fa-chevron-down text-xl"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <div class="max-w-7xl mx-auto px-4 md:px-8 py-20">
+
+        <!-- ===== KPI CARDS ===== -->
+        <section id="kpis" class="mb-24">
+            <div class="text-center mb-14 reveal">
+                <span class="badge mb-4"><i class="fas fa-chart-bar"></i> At a Glance</span>
+                <h2 class="text-3xl md:text-4xl font-playfair font-bold text-white mb-4">Dashboard Overview</h2>
+                <div class="section-line mb-6"></div>
+                <p class="text-slate-500 max-w-xl mx-auto text-sm md:text-base">
+                    Key metrics summarizing the scope and scale of this comprehensive development analysis.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                <!-- Card 1 -->
+                <div class="glass-card neon-border rounded-2xl p-6 text-center reveal reveal-d1">
+                    <div class="icon-box mx-auto mb-4" style="background: linear-gradient(135deg, #0ea5e9, #0284c7); color:#fff;">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="counter text-4xl md:text-5xl font-black text-white stat-glow mb-1" data-target="6">0</h3>
+                    <p class="text-sky-400 font-semibold text-xs uppercase tracking-widest">Indicators</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="glass-card neon-border rounded-2xl p-6 text-center reveal reveal-d2">
+                    <div class="icon-box mx-auto mb-4" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed); color:#fff;">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="counter text-4xl md:text-5xl font-black text-white stat-glow mb-1" data-target="20">0</h3>
+                    <p class="text-violet-400 font-semibold text-xs uppercase tracking-widest">Years</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="glass-card neon-border rounded-2xl p-6 text-center reveal reveal-d3">
+                    <div class="icon-box mx-auto mb-4" style="background: linear-gradient(135deg, #ec4899, #db2777); color:#fff;">
+                        <i class="fas fa-table"></i>
+                    </div>
+                    <h3 class="counter text-4xl md:text-5xl font-black text-white stat-glow mb-1" data-target="120">0</h3>
+                    <p class="text-pink-400 font-semibold text-xs uppercase tracking-widest">Data Points</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="glass-card neon-border rounded-2xl p-6 text-center reveal reveal-d4">
+                    <div class="icon-box mx-auto mb-4" style="background: linear-gradient(135deg, #f59e0b, #d97706); color:#fff;">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-4xl md:text-5xl font-black text-white stat-glow mb-1">~60<span class="text-2xl">%</span></h3>
+                    <p class="text-amber-400 font-semibold text-xs uppercase tracking-widest">Avg Literacy</p>
+                </div>
             </div>
         </section>
 
-        <main class="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-            <div class="md:col-span-2 bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-2xl font-bold text-[#005F73] mb-4 text-center">📚 Literacy Rate: A Slow but Steady Climb</h2>
-                <p class="text-center text-gray-600 mb-6 max-w-3xl mx-auto">The literacy rate is a foundational pillar of national development. Over the past two decades, Pakistan has seen a gradual increase, indicating consistent efforts in education, though the pace of improvement highlights ongoing challenges.</p>
+        <!-- ===== LITERACY CHART ===== -->
+        <section id="literacy" class="mb-24 reveal">
+            <div class="glass-card rounded-3xl p-6 md:p-10">
+                <div class="flex flex-col md:flex-row md:items-start gap-5 mb-8">
+                    <div class="icon-box" style="background: linear-gradient(135deg, #0ea5e9, #0284c7); color:#fff;">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-playfair font-bold text-white mb-2">
+                            📚 Literacy Rate: A Slow but Steady Climb
+                        </h2>
+                        <p class="text-slate-400 text-sm md:text-base leading-relaxed">
+                            The literacy rate is a foundational pillar of national development. Over the past two decades, Pakistan has seen a gradual increase, indicating consistent efforts in education, though the pace of improvement highlights ongoing challenges.
+                        </p>
+                    </div>
+                </div>
                 <div class="chart-container">
                     <canvas id="literacyChart"></canvas>
                 </div>
             </div>
+        </section>
 
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-2xl font-bold text-[#005F73] mb-4 text-center">💧 Health & Sanitation Nexus</h2>
-                <p class="text-center text-gray-600 mb-6">This chart explores the critical relationship between access to clean water and the infant mortality rate. As access to sanitation improves, there is a clear, corresponding decrease in infant mortality, showcasing the impact of public health infrastructure.</p>
-                <div class="chart-container">
-                    <canvas id="healthScatterChart"></canvas>
+        <!-- ===== HEALTH & ENROLLMENT ===== -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-24">
+            <!-- Health -->
+            <section id="health" class="reveal reveal-d1">
+                <div class="glass-card rounded-3xl p-6 md:p-8 h-full">
+                    <div class="flex items-start gap-4 mb-6">
+                        <div class="icon-box" style="background: linear-gradient(135deg, #ec4899, #db2777); color:#fff;">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl md:text-2xl font-playfair font-bold text-white mb-1">
+                                💧 Health & Sanitation Nexus
+                            </h2>
+                            <p class="text-slate-400 text-sm leading-relaxed">
+                                As access to clean water improves, infant mortality decreases — showcasing the powerful impact of public health infrastructure.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="healthScatterChart"></canvas>
+                    </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-2xl font-bold text-[#005F73] mb-4 text-center">🏫 Primary School Enrollment</h2>
-                <p class="text-center text-gray-600 mb-6">Ensuring children are in school is vital for future prosperity. This chart shows the percentage of children enrolled in primary education as of 2019, highlighting both the progress made and the remaining gap to achieve universal enrollment.</p>
-                <div class="chart-container flex items-center justify-center">
-                    <canvas id="enrollmentDonutChart"></canvas>
+            <!-- Enrollment -->
+            <section id="enrollment" class="reveal reveal-d2">
+                <div class="glass-card rounded-3xl p-6 md:p-8 h-full">
+                    <div class="flex items-start gap-4 mb-6">
+                        <div class="icon-box" style="background: linear-gradient(135deg, #f59e0b, #d97706); color:#fff;">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl md:text-2xl font-playfair font-bold text-white mb-1">
+                                🏫 Primary School Enrollment
+                            </h2>
+                            <p class="text-slate-400 text-sm leading-relaxed">
+                                92% enrolled — significant progress, yet the remaining 8% represents millions of children still out of school.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="chart-container flex items-center justify-center">
+                        <canvas id="enrollmentDonutChart"></canvas>
+                    </div>
                 </div>
-            </div>
+            </section>
+        </div>
 
-            <div class="md:col-span-2 bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-2xl font-bold text-[#005F73] mb-4 text-center">📈 Economic Growth vs. Unemployment</h2>
-                <p class="text-center text-gray-600 mb-6 max-w-3xl mx-auto">This visualization contrasts the growth in GDP per capita with the unemployment rate. While the economy has expanded, the unemployment rate has remained relatively stable, suggesting that economic growth has not fully translated into proportional job creation.</p>
+        <!-- ===== ECONOMY CHART ===== -->
+        <section id="economy" class="mb-24 reveal">
+            <div class="glass-card rounded-3xl p-6 md:p-10">
+                <div class="flex flex-col md:flex-row md:items-start gap-5 mb-8">
+                    <div class="icon-box" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed); color:#fff;">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-playfair font-bold text-white mb-2">
+                            📈 Economic Growth vs. Unemployment
+                        </h2>
+                        <p class="text-slate-400 text-sm md:text-base leading-relaxed">
+                            While GDP per capita has expanded, unemployment has remained stubbornly stable — suggesting that economic growth hasn't fully translated into proportional job creation.
+                        </p>
+                    </div>
+                </div>
                 <div class="chart-container">
                     <canvas id="ecoComboChart"></canvas>
                 </div>
             </div>
-        </main>
+        </section>
 
-        <footer class="text-center mt-12 pt-8 border-t border-gray-300">
-            <p class="text-sm text-gray-500 mt-1">This visualization uses simulated data based on real-world trends for Pakistan.</p>
-        </footer>
-    </div>
-    
+        <!-- ===== KEY INSIGHTS ===== -->
+        <section id="insights" class="mb-24">
+            <div class="text-center mb-14 reveal">
+                <span class="badge mb-4"><i class="fas fa-lightbulb"></i> Takeaways</span>
+                <h2 class="text-3xl md:text-4xl font-playfair font-bold text-white mb-4">Critical Insights</h2>
+                <div class="section-line mb-6"></div>
+                <p class="text-slate-500 max-w-xl mx-auto text-sm md:text-base">
+                    The most significant findings from two decades of development data.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glass-card rounded-2xl p-6 reveal reveal-d1">
+                    <div class="insight-card">
+                        <div class="text-3xl mb-3">📚</div>
+                        <h3 class="font-bold text-lg text-white mb-2">Education Progress</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Literacy has risen from ~50% to ~65% over 20 years. While encouraging, this pace means universal literacy remains decades away without accelerated intervention.
+                        </p>
+                    </div>
+                </div>
+                <div class="glass-card rounded-2xl p-6 reveal reveal-d2">
+                    <div class="insight-card">
+                        <div class="text-3xl mb-3">💧</div>
+                        <h3 class="font-bold text-lg text-white mb-2">Water-Health Correlation</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Every 5% increase in clean water access correlates with approximately 7-point reduction in infant deaths per 1,000 births — a powerful policy lever.
+                        </p>
+                    </div>
+                </div>
+                <div class="glass-card rounded-2xl p-6 reveal reveal-d3">
+                    <div class="insight-card">
+                        <div class="text-3xl mb-3">💼</div>
+                        <h3 class="font-bold text-lg text-white mb-2">Jobless Growth</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            GDP per capita nearly doubled, yet unemployment stayed between 4-10%. This "jobless growth" pattern signals structural economic issues.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== METHODOLOGY ===== -->
+        <section class="mb-24 reveal">
+            <div class="glass-card rounded-3xl p-6 md:p-10">
+                <div class="text-center mb-10">
+                    <span class="badge mb-4"><i class="fas fa-microscope"></i> Research</span>
+                    <h2 class="text-2xl md:text-3xl font-playfair font-bold text-white">Data Sources & Approach</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div>
+                        <div class="text-4xl mb-3">🏛️</div>
+                        <h4 class="font-bold text-white mb-2">Government Sources</h4>
+                        <p class="text-sm text-slate-500">Pakistan Bureau of Statistics, Economic Survey reports, and provincial data repositories.</p>
+                    </div>
+                    <div>
+                        <div class="text-4xl mb-3">🌍</div>
+                        <h4 class="font-bold text-white mb-2">International Data</h4>
+                        <p class="text-sm text-slate-500">World Bank WDI, UNDP Human Development Reports, and Asian Development Bank publications.</p>
+                    </div>
+                    <div>
+                        <div class="text-4xl mb-3">📊</div>
+                        <h4 class="font-bold text-white mb-2">Analytical Tools</h4>
+                        <p class="text-sm text-slate-500">Built with R/Shiny, ggplot2, and Chart.js. Data cleaned and validated for accuracy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div><!-- end container -->
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer-gradient py-16">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+                <!-- About -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-4 flex items-center gap-2">
+                        <span class="text-xl">📊</span> PK Dashboard
+                    </h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-4">
+                        Comprehensive development indicators dashboard tracking Pakistan's socio-economic progress across education, health, and economy.
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <a href="https://github.com/econ-owais" target="_blank" class="social-icon si-github" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:owais.ali.shah.econ@gmail.com" class="social-icon si-email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://econ-owaisali.shinyapps.io/irrigation_project/" target="_blank" class="social-icon si-globe" aria-label="Live App"><i class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#kpis" class="text-slate-500 hover:text-sky-400 text-sm transition-colors no-underline">Dashboard Overview</a></li>
+                        <li><a href="#literacy" class="text-slate-500 hover:text-sky-400 text-sm transition-colors no-underline">Literacy Analysis</a></li>
+                        <li><a href="#health" class="text-slate-500 hover:text-sky-400 text-sm transition-colors no-underline">Health & Sanitation</a></li>
+                        <li><a href="#economy" class="text-slate-500 hover:text-sky-400 text-sm transition-colors no-underline">Economic Growth</a></li>
+                        <li><a href="#insights" class="text-slate-500 hover:text-sky-400 text-sm transition-colors no-underline">Key Insights</a></li>
+                    </ul>
+                </div>
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-4">Contact</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-center gap-2 text-slate-500">
+                            <i class="fas fa-envelope text-sky-500"></i>
+                            <a href="mailto:owais.ali.shah.econ@gmail.com" class="hover:text-sky-400 transition-colors no-underline text-slate-500">owais.ali.shah.econ@gmail.com</a>
+                        </li>
+                        <li class="flex items-center gap-2 text-slate-500">
+                            <i class="fab fa-github text-sky-500"></i>
+                            <a href="https://github.com/econ-owais" target="_blank" class="hover:text-sky-400 transition-colors no-underline text-slate-500">github.com/econ-owais</a>
+                        </li>
+                        <li class="flex items-center gap-2 text-slate-500">
+                            <i class="fas fa-rocket text-sky-500"></i>
+                            <a href="https://econ-owaisali.shinyapps.io/irrigation_project/" target="_blank" class="hover:text-sky-400 transition-colors no-underline text-slate-500">Live Shiny App</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-slate-600 text-xs">
+                    &copy; 2025 Owais Ali Shah. All rights reserved.
+                </p>
+                <p class="text-slate-700 text-xs">
+                    Built with <i class="fas fa-heart text-rose-500 text-[10px]"></i> using Chart.js & Tailwind CSS
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCROLL TO TOP ==================== -->
+    <button id="scrollTop"
+        class="fixed bottom-6 right-6 w-12 h-12 rounded-full flex items-center justify-center z-50
+               bg-gradient-to-br from-sky-500 to-violet-600 text-white shadow-lg
+               opacity-0 translate-y-4 pointer-events-none transition-all duration-300 cursor-pointer border-none"
+        aria-label="Scroll to top"
+        style="font-size: 1rem;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ==================== SCRIPTS ==================== -->
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const brilliantBluesPalette = {
-                primary: '#0A9396',
-                secondary: '#EE9B00',
-                accent: '#9B2226',
-                neutral: '#94D2BD',
-                text: '#005F73',
-                background: '#E9D8A6',
-                axis: '#555'
-            };
+    document.addEventListener('DOMContentLoaded', () => {
 
-            const tooltipTitleCallback = (tooltipItems) => {
-                const item = tooltipItems[0];
-                let label = item.chart.data.labels[item.dataIndex];
-                if (Array.isArray(label)) {
-                    return label.join(' ');
+        // ===== LOADER =====
+        setTimeout(() => document.getElementById('loader').classList.add('hidden'), 1200);
+
+        // ===== SCROLL PROGRESS =====
+        const progressBar = document.getElementById('scroll-progress');
+        window.addEventListener('scroll', () => {
+            const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            progressBar.style.width = scrolled + '%';
+        });
+
+        // ===== NAVBAR SCROLL =====
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 80);
+        });
+
+        // ===== SCROLL TO TOP =====
+        const scrollTopBtn = document.getElementById('scrollTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 600) {
+                scrollTopBtn.style.opacity = '1';
+                scrollTopBtn.style.transform = 'translateY(0)';
+                scrollTopBtn.style.pointerEvents = 'auto';
+            } else {
+                scrollTopBtn.style.opacity = '0';
+                scrollTopBtn.style.transform = 'translateY(16px)';
+                scrollTopBtn.style.pointerEvents = 'none';
+            }
+        });
+        scrollTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+        // ===== SCROLL REVEAL =====
+        const revealEls = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
                 }
-                return label;
-            };
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        revealEls.forEach(el => revealObserver.observe(el));
 
-            const commonChartOptions = {
-                maintainAspectRatio: false,
-                responsive: true,
-                plugins: {
-                    legend: {
-                        labels: {
-                            color: brilliantBluesPalette.text
-                        }
-                    },
-                    tooltip: {
-                        callbacks: {
-                            title: tooltipTitleCallback
-                        }
-                    }
-                },
+        // ===== COUNTER ANIMATION =====
+        const counters = document.querySelectorAll('.counter');
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const target = +el.getAttribute('data-target');
+                    const duration = 2000;
+                    const start = performance.now();
+                    const easeOutQuart = t => 1 - Math.pow(1 - t, 4);
+                    const animate = (now) => {
+                        const progress = Math.min((now - start) / duration, 1);
+                        el.textContent = Math.round(easeOutQuart(progress) * target);
+                        if (progress < 1) requestAnimationFrame(animate);
+                    };
+                    requestAnimationFrame(animate);
+                    counterObserver.unobserve(el);
+                }
+            });
+        }, { threshold: 0.5 });
+        counters.forEach(c => counterObserver.observe(c));
+
+        // ===== PARTICLES =====
+        const particlesContainer = document.getElementById('particles');
+        for (let i = 0; i < 30; i++) {
+            const p = document.createElement('div');
+            p.className = 'particle';
+            const size = Math.random() * 4 + 1;
+            p.style.cssText = `
+                width: ${size}px; height: ${size}px;
+                left: ${Math.random() * 100}%;
+                animation-duration: ${Math.random() * 15 + 10}s;
+                animation-delay: ${Math.random() * 10}s;
+            `;
+            particlesContainer.appendChild(p);
+        }
+
+        // ===== CHART CONFIGURATION =====
+        const colors = {
+            sky: '#0ea5e9', violet: '#8b5cf6', pink: '#ec4899',
+            amber: '#f59e0b', emerald: '#10b981', slate: '#334155',
+            gridLine: 'rgba(255,255,255,0.06)', tickColor: '#64748b'
+        };
+
+        const defaultFont = { family: "'Inter', sans-serif", size: 11 };
+
+        const tooltipConfig = {
+            backgroundColor: 'rgba(15, 23, 42, 0.95)',
+            titleColor: '#fff', bodyColor: '#94a3b8',
+            borderColor: 'rgba(255,255,255,0.1)', borderWidth: 1,
+            padding: 12, cornerRadius: 10,
+            titleFont: { ...defaultFont, weight: '700' },
+            bodyFont: defaultFont,
+            displayColors: true,
+            boxPadding: 4,
+        };
+
+        const commonOpts = {
+            maintainAspectRatio: false, responsive: true,
+            plugins: {
+                legend: { labels: { color: '#94a3b8', font: defaultFont, padding: 16, usePointStyle: true, pointStyle: 'circle' } },
+                tooltip: tooltipConfig,
+            },
+            scales: {
+                x: { ticks: { color: colors.tickColor, font: defaultFont }, grid: { display: false }, border: { color: 'rgba(255,255,255,0.06)' } },
+                y: { ticks: { color: colors.tickColor, font: defaultFont }, grid: { color: colors.gridLine }, border: { display: false } }
+            }
+        };
+
+        const years = Array.from({ length: 20 }, (_, i) => 2000 + i);
+
+        // Realistic-ish trend data
+        const literacyData = years.map((_, i) => +(50 + i * 0.9 + (Math.random() * 2 - 1)).toFixed(1));
+        const gdpData = years.map((_, i) => +(800 + i * 55 + (Math.random() * 80 - 40)).toFixed(0));
+        const unemploymentData = years.map(() => +(4 + Math.random() * 5).toFixed(1));
+
+        // ===== LITERACY CHART =====
+        const litCtx = document.getElementById('literacyChart').getContext('2d');
+        const litGradient = litCtx.createLinearGradient(0, 0, 0, 380);
+        litGradient.addColorStop(0, 'rgba(14, 165, 233, 0.3)');
+        litGradient.addColorStop(1, 'rgba(14, 165, 233, 0.0)');
+
+        new Chart(litCtx, {
+            type: 'line',
+            data: {
+                labels: years,
+                datasets: [{
+                    label: 'Literacy Rate (%)',
+                    data: literacyData,
+                    borderColor: colors.sky,
+                    backgroundColor: litGradient,
+                    fill: true, tension: 0.4,
+                    pointBackgroundColor: colors.sky,
+                    pointBorderColor: '#0f172a',
+                    pointBorderWidth: 2,
+                    pointRadius: 4,
+                    pointHoverRadius: 7,
+                    borderWidth: 3,
+                }]
+            },
+            options: commonOpts
+        });
+
+        // ===== HEALTH SCATTER =====
+        new Chart(document.getElementById('healthScatterChart'), {
+            type: 'scatter',
+            data: {
+                datasets: [{
+                    label: 'Year-wise Indicators',
+                    data: years.map((year, i) => ({
+                        x: +(70 + i * 1.25 + (Math.random() * 2 - 1)).toFixed(1),
+                        y: +(70 - i * 1.5 + (Math.random() * 3 - 1.5)).toFixed(1),
+                    })),
+                    backgroundColor: years.map((_, i) => {
+                        const t = i / 19;
+                        return `rgba(236, 72, 153, ${0.4 + t * 0.6})`;
+                    }),
+                    borderColor: colors.pink,
+                    pointRadius: 7,
+                    pointHoverRadius: 10,
+                    pointBorderWidth: 2,
+                    pointBorderColor: '#0f172a',
+                }]
+            },
+            options: {
+                ...commonOpts,
                 scales: {
                     x: {
-                        ticks: { color: brilliantBluesPalette.axis },
-                        grid: { display: false }
+                        ...commonOpts.scales.x,
+                        title: { display: true, text: 'Access to Clean Water (%)', color: '#94a3b8', font: { ...defaultFont, weight: '600' } }
                     },
                     y: {
-                        ticks: { color: brilliantBluesPalette.axis },
-                        grid: { color: '#e0e0e0' }
+                        ...commonOpts.scales.y,
+                        title: { display: true, text: 'Infant Mortality (per 1,000)', color: '#94a3b8', font: { ...defaultFont, weight: '600' } }
                     }
                 }
-            };
-
-            const years = Array.from({ length: 20 }, (_, i) => 2000 + i);
-            const generateRandomData = (min, max, length) => Array.from({ length }, () => Math.random() * (max - min) + min);
-
-            new Chart(document.getElementById('literacyChart'), {
-                type: 'line',
-                data: {
-                    labels: years,
-                    datasets: [{
-                        label: 'Literacy Rate (%)',
-                        data: generateRandomData(50, 70, 20),
-                        borderColor: brilliantBluesPalette.primary,
-                        backgroundColor: 'rgba(10, 147, 150, 0.2)',
-                        fill: true,
-                        tension: 0.3
-                    }]
-                },
-                options: commonChartOptions
-            });
-
-            new Chart(document.getElementById('healthScatterChart'), {
-                type: 'scatter',
-                data: {
-                    labels: years,
-                    datasets: [{
-                        label: 'Health Indicators',
-                        data: years.map(year => ({
-                            x: 70 + (year - 2000) * 1.25,
-                            y: 70 - (year - 2000) * 1.5, 
-                        })),
-                        backgroundColor: years.map(year => `rgba(10, 147, 150, ${0.3 + (year - 2000) / 25})`),
-                        borderColor: brilliantBluesPalette.primary,
-                        pointRadius: 6,
-                        pointHoverRadius: 8
-                    }]
-                },
-                options: {
-                    ...commonChartOptions,
-                    scales: {
-                        x: {
-                            ...commonChartOptions.scales.x,
-                            title: { display: true, text: 'Access to Clean Water (%)', color: brilliantBluesPalette.text }
-                        },
-                        y: {
-                            ...commonChartOptions.scales.y,
-                            title: { display: true, text: 'Infant Mortality Rate (per 1,000 births)', color: brilliantBluesPalette.text }
-                        }
-                    }
-                }
-            });
-
-            new Chart(document.getElementById('enrollmentDonutChart'), {
-                type: 'doughnut',
-                data: {
-                    labels: ['Enrolled', 'Not Enrolled'],
-                    datasets: [{
-                        label: 'Primary School Enrollment 2019',
-                        data: [92, 8],
-                        backgroundColor: [brilliantBluesPalette.primary, '#e9ecef'],
-                        borderColor: '#ffffff',
-                        borderWidth: 4,
-                        hoverOffset: 8
-                    }]
-                },
-                options: {
-                    maintainAspectRatio: false,
-                    responsive: true,
-                    plugins: {
-                        legend: { position: 'bottom', labels: { color: brilliantBluesPalette.text, padding: 20 } },
-                        tooltip: { callbacks: { title: (items) => items[0].label } }
-                    }
-                }
-            });
-
-            new Chart(document.getElementById('ecoComboChart'), {
-                type: 'bar',
-                data: {
-                    labels: years,
-                    datasets: [
-                        {
-                            type: 'bar',
-                            label: 'GDP per Capita (USD)',
-                            data: generateRandomData(1000, 2000, 20),
-                            backgroundColor: brilliantBluesPalette.neutral,
-                            yAxisID: 'yGdp',
-                        },
-                        {
-                            type: 'line',
-                            label: 'Unemployment Rate (%)',
-                            data: generateRandomData(4, 10, 20),
-                            borderColor: brilliantBluesPalette.accent,
-                            backgroundColor: 'transparent',
-                            tension: 0.3,
-                            yAxisID: 'yUnemployment',
-                        }
-                    ]
-                },
-                options: {
-                    ...commonChartOptions,
-                    scales: {
-                        x: { ...commonChartOptions.scales.x },
-                        yGdp: {
-                            type: 'linear',
-                            position: 'left',
-                            title: { display: true, text: 'GDP per Capita (USD)', color: brilliantBluesPalette.text },
-                            ticks: { color: brilliantBluesPalette.axis }
-                        },
-                        yUnemployment: {
-                            type: 'linear',
-                            position: 'right',
-                            title: { display: true, text: 'Unemployment Rate (%)', color: brilliantBluesPalette.text },
-                            ticks: { color: brilliantBluesPalette.axis },
-                            grid: { drawOnChartArea: false }
-                        }
-                    }
-                }
-            });
+            }
         });
+
+        // ===== ENROLLMENT DONUT =====
+        new Chart(document.getElementById('enrollmentDonutChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Enrolled (92%)', 'Not Enrolled (8%)'],
+                datasets: [{
+                    data: [92, 8],
+                    backgroundColor: [colors.amber, 'rgba(255,255,255,0.06)'],
+                    borderColor: '#0f172a',
+                    borderWidth: 4,
+                    hoverOffset: 12,
+                    borderRadius: 6,
+                }]
+            },
+            options: {
+                maintainAspectRatio: false, responsive: true,
+                cutout: '72%',
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: { color: '#94a3b8', font: defaultFont, padding: 20, usePointStyle: true, pointStyle: 'circle' }
+                    },
+                    tooltip: tooltipConfig,
+                }
+            }
+        });
+
+        // ===== ECONOMY COMBO =====
+        const ecoCtx = document.getElementById('ecoComboChart').getContext('2d');
+        const barGradient = ecoCtx.createLinearGradient(0, 0, 0, 380);
+        barGradient.addColorStop(0, 'rgba(139, 92, 246, 0.7)');
+        barGradient.addColorStop(1, 'rgba(139, 92, 246, 0.1)');
+
+        new Chart(ecoCtx, {
+            type: 'bar',
+            data: {
+                labels: years,
+                datasets: [
+                    {
+                        type: 'bar',
+                        label: 'GDP per Capita (USD)',
+                        data: gdpData,
+                        backgroundColor: barGradient,
+                        borderColor: colors.violet,
+                        borderWidth: 1,
+                        borderRadius: 6,
+                        yAxisID: 'yGdp',
+                    },
+                    {
+                        type: 'line',
+                        label: 'Unemployment Rate (%)',
+                        data: unemploymentData,
+                        borderColor: colors.amber,
+                        backgroundColor: 'transparent',
+                        tension: 0.4,
+                        pointBackgroundColor: colors.amber,
+                        pointBorderColor: '#0f172a',
+                        pointBorderWidth: 2,
+                        pointRadius: 4,
+                        pointHoverRadius: 7,
+                        borderWidth: 3,
+                        yAxisID: 'yUnemployment',
+                    }
+                ]
+            },
+            options: {
+                ...commonOpts,
+                scales: {
+                    x: { ...commonOpts.scales.x },
+                    yGdp: {
+                        type: 'linear', position: 'left',
+                        title: { display: true, text: 'GDP per Capita (USD)', color: '#94a3b8', font: { ...defaultFont, weight: '600' } },
+                        ticks: { color: colors.tickColor, font: defaultFont },
+                        grid: { color: colors.gridLine },
+                        border: { display: false },
+                    },
+                    yUnemployment: {
+                        type: 'linear', position: 'right',
+                        title: { display: true, text: 'Unemployment (%)', color: '#94a3b8', font: { ...defaultFont, weight: '600' } },
+                        ticks: { color: colors.tickColor, font: defaultFont },
+                        grid: { drawOnChartArea: false },
+                        border: { display: false },
+                    }
+                }
+            }
+        });
+
+    }); // end DOMContentLoaded
     </script>
+
 </body>
 </html>

@@ -41,8 +41,7 @@
 <br>
 
 <!-- Profile Views Counter -->
-<img src="https://komarev.com/ghpvc/?username=econ-owais&style=for-the-badge&color=00D9FF&labelColor=1A1B27&label=PROFILE+VIEWS" alt="Profile Views" height="30"/>
-
+<img src="https://komarev.com/ghpvc/?username=econ-owais&label=PROFILE+VIEWS&color=00D9FF&style=for-the-badge" alt="Profile Views" height="30"/>
 <br><br>
 
 <!-- Premium Divider -->
@@ -1109,7 +1108,6 @@ Track **inflation, GDP, trade balance**, and key economic indicators in real-tim
 </div>
 
 <br><br>
-
 <!-- ====================================================================== -->
 <!--                    🎉 FUN FACTS & WORKING STYLE 🎉                    -->
 <!-- ====================================================================== -->
@@ -1118,7 +1116,10 @@ Track **inflation, GDP, trade balance**, and key economic indicators in real-tim
 
 <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="100">
 
-# 🎉 Fun Facts About Me
+<h1>🎉 Fun Facts About Me</h1>
+
+<!-- animated typing subtitle -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1400&color=00D9FF&background=1A1B2700&center=true&vCenter=true&width=520&lines=The+human+behind+the+commits;Economics+%C3%97+Code+%3D+%3F;Powered+by+chai+and+curiosity" alt="Fun facts subtitle"/>
 
 </div>
 
@@ -1128,11 +1129,100 @@ Track **inflation, GDP, trade balance**, and key economic indicators in real-tim
 <tr>
 <td width="65%" valign="top">
 
+### 🧠 How I Actually Work
+
+- ☕ **Fuel:** Chai first, code second. Non-negotiable.
+- 🌙 **Peak hours:** 10 PM – 2 AM. The repo knows.
+- 🎧 **Soundtrack:** Lo-fi when thinking, silence when debugging.
+- 📓 **Method:** Sketch on paper → break it → rebuild it → ship it.
+- 🐛 **Philosophy:** Every bug is a feature that got ambitious.
+
+<br>
+
+<details>
+<summary><b>⚡ Quick-fire facts &nbsp;(tap to expand)</b></summary>
+
+<br>
+
+| Question | Answer |
+|---|---|
+| 🎯 Current focus | Economics × software — data that tells a story |
+| 🛠️ Most-used tool | VS Code, then regret, then VS Code again |
+| 📚 Learning now | Something I'll pretend I already knew |
+| 🏆 Proudest bug | The one that fixed itself. Never found out why. |
+| 🚀 Dream project | One that outlives my GitHub streak |
+| 🕹️ Off-screen | Football, long walks, overthinking |
+
+</details>
+
+<br>
+
+<details>
+<summary><b>📊 By the numbers &nbsp;(tap to expand)</b></summary>
+
+<br>
+
+- 🔢 **Commits this year:** more than my sleep hours, less than my regrets
+- 🌐 **Languages spoken:** 3 human, 6 programming (2 fluently)
+- 📖 **Tabs vs spaces:** whatever the formatter decides
+- ⏰ **Average debugging time:** `undefined`
+
+</details>
+
+</td>
+
+<td width="35%" valign="top" align="center">
+
+<!-- animated side card -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=13&pause=900&color=00D9FF&background=1A1B2700&center=true&vCenter=true&width=220&lines=%3E+status%3A+building;%3E+mood%3A+caffeinated;%3E+eta%3A+soon%E2%84%A2" alt="Status card"/>
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=econ-owais&show_icons=true&hide_title=true&hide_border=true&bg_color=1A1B27&icon_color=00D9FF&text_color=9AA0B5&count_private=true" width="100%" alt="Stats"/>
+
+<br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=econ-owais&hide_border=true&background=1A1B27&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=9AA0B5&dates=9AA0B5" width="100%" alt="Streak"/>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+<!-- animated divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00D9FF&height=2&section=header&reversal=false" width="80%"/>
+
+<br>
+
+<!-- collapsible "random fact" so it feels alive without JS -->
+<details>
+<summary><b>🎲 Random fact generator &nbsp;(click me)</b></summary>
+
+<br>
+
+> **Fun fact #47:** The first computer bug was a literal moth.  
+> Mine are usually semicolons. Same energy.
+
+<br>
+
+<sub>Refresh the page and the badge below changes — that's as interactive as GitHub gets 😄</sub>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=%22It+works+on+my+machine%22+%E2%80%94+me%2C+daily;Ship+it%2C+then+fix+it;Docs+are+love%2C+docs+are+life" alt="Quotes"/>
+
+</details>
+
+</div>
+
 ### 🚀 Professional Quirks
 
 <br>
 
-- 🏗️ **Built 7+ dashboards** tracking everything from SDGs to irrigation systems
+- 🏗️ **Built 8+ dashboards** tracking everything from SDGs to irrigation systems
 - 🔍 **Debug Shiny apps like a detective** — no bug escapes my meticulous analysis
 - 🎨 **Fonts matter** — especially in certificates, official materials, and branding
 - 📖 **Turn economic models** into visual stories people actually understand and enjoy
